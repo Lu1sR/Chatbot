@@ -1,15 +1,16 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
+import os.path
+from os import path
 
 import numpy
 import random
 import json
 
-
-with open("intents.json") as file:
-    data = json.load(file)
-
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+json_url = os.path.join(SITE_ROOT,'intents.json')
+data = json.load(open(json_url))
 
 words = []
 labels = []

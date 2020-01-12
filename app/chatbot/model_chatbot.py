@@ -1,7 +1,6 @@
 import tflearn
 import tensorflow
-from preprocessor import *
-
+from chatbot.preprocessor import *
 
 tensorflow.reset_default_graph()
 

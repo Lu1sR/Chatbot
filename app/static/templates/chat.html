@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+        <script src="js/index.js"></script>
+
+</head>
+
+<body>
+    <section class="msger">
+        <header class="msger-header">
+            <div class="msger-header-title">
+                <i class="fas fa-comment-alt"></i> ChatBot House
+            </div>
+            <div class="msger-header-options">
+                <span><button onclick="modelo()">Crear modelo</button></span>
+            </div>
+        </header>
+
+        <main class="msger-chat">
+            <div class="msg left-msg">
+                <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)">
+                </div>
+
+                <div class="msg-bubble">
+                    <div class="msg-info">
+                        <div class="msg-info-name">BOT</div>
+                        <div class="msg-info-time">12:45</div>
+                    </div>
+
+                    <div class="msg-text">
+                      Hola, Bienvenido a ChatBot House!😄
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="msger-inputarea">
+            <input type="text" class="msger-input" placeholder="Ingrese su mensaje...">
+            <button class="msger-send-btn" onclick="enviar()">Send</button>
+        </div>
+    </section>
+</body>
+
+</html>
