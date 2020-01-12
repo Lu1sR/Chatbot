@@ -73,9 +73,7 @@ function appendMessage(name, img, side, text) {
 }
 
 function botResponse() {
- /* const r = random(0, BOT_MSGS.length - 1);
-  const msgText = BOT_MSGS[r];
-  const delay = msgText.split(" ").length * 100;*/
+ /*const delay = msgText.split(" ").length * 100;*/
   const delay = 500;
 
   setTimeout(() => {
@@ -93,8 +91,4 @@ function formatDate(date) {
   const m = "0" + date.getMinutes();
 
   return `${h.slice(-2)}:${m.slice(-2)}`;
-}
-
-function random(min, max) {
-  return Math.floor(Math.random() * (max - min) + min);
 }

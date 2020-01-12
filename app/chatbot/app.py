@@ -4,7 +4,6 @@ from os import path
 
 
 def init_bot():
-    print("ENTRA")
     if path.exists("model/model.tflearn.index"):
         model.load("model/model.tflearn")
         
