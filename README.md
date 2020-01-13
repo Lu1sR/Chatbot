@@ -1,13 +1,17 @@
 # Chatbot
 
-1 - Instalar
+1 - Instalar 
 ---------------
-
 * pip install tensorflow
 * pip install nltk
 * pip install tflearn
 * pip install numpy
 
-2 - Ejecutar
+Servidor:
+
+* pip install Flask
+* export FLASK_APP=app/main.py 
+
+2 - Iniciar
 ---------------
-python app.py
+* flask run  
