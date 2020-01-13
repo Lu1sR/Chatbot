@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/miguel/ESPOL/AI/Chatbot/model/model.tflearn"
-all_model_checkpoint_paths: "/home/miguel/ESPOL/AI/Chatbot/model/model.tflearn"
+model_checkpoint_path: "/mnt/c/Users/david/OneDrive/Escritorio/ChatBot/model/model.tflearn"
+all_model_checkpoint_paths: "/mnt/c/Users/david/OneDrive/Escritorio/ChatBot/model/model.tflearn"
