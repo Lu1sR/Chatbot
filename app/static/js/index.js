@@ -1,3 +1,12 @@
+$(document).ready(function() {
+  $('.msger-input').keyup(function(e){
+    if(e.keyCode == 13)
+    {
+        enviar();
+    }
+  });
+
+});
 
 var msgerChat,msgBot
 const BOT_MSGS = [
@@ -8,7 +17,7 @@ const BOT_MSGS = [
   "I feel sleepy! :("
 ];
 
-const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
+const BOT_IMG = "https://image.flaticon.com/icons/svg/2040/2040653.svg";
 const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
 const BOT_NAME = "BOT";
 const PERSON_NAME = "YOU";
@@ -40,6 +49,8 @@ function enviar_mensaje(msgText){
   });
 }
 
+
+
 function modelo(){
   $.ajax({
     url: '/create_model',
@@ -52,7 +63,6 @@ function modelo(){
 }
 
 function appendMessage(name, img, side, text) {
-  //   Simple solution for small apps
   const msgHTML = `
     <div class="msg ${side}-msg">
       <div class="msg-img" style="background-image: url(${img})"></div>
