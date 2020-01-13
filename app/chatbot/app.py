@@ -4,8 +4,10 @@ from os import path
 
 
 def init_bot():
-    if path.exists("model/model.tflearn.index"):
-        model.load("model/model.tflearn")
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    model_url = os.path.join(SITE_ROOT,'model/model.tflearn.index')
+    if path.exists(model_url):
+        model.load(model_url)
         
     else:
         create_model()
