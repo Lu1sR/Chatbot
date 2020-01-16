@@ -11,6 +11,9 @@ import json
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 json_url = os.path.join(SITE_ROOT,'intents.json')
 data = json.load(open(json_url))
+property_data = json.load(open(os.path.join(SITE_ROOT,'properties_intents.json'))) 
+for property_intent in property_data['intents']:
+    data['intents'].append(property_intent)
 
 words = []
 labels = []

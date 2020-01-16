@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="au theme template">
+  <meta name="author" content="Hau Nguyen">
+  <meta name="keywords" content="au theme template">
+
+  <!-- Title Page-->
+  <title>Formulario de propiedades</title>
+
+  <!-- Fontfaces CSS-->
+  <link href="css/font-face.css" rel="stylesheet" media="all">
+  <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+  <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+  <!-- Bootstrap CSS-->
+  <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+  <!-- Main CSS-->
+  <link href="css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+  <div class="page-wrapper">
+
+    <!-- PAGE CONTAINER-->
+    <div class="container">
+
+      <!-- MAIN CONTENT-->
+      <div class="main-content">
+        <div class="section__content section__content--p30">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+
+              <div class="col-12 col-md-8">
+                <div class="card">
+                  <form id="form" class="form-horizontal">
+                    <div class="card-header">
+                      Formulario de <strong>Propiedad</strong>
+                    </div>
+                    <div class="card-body card-block">
+
+                      <div class="row form-group">
+                        <div class="col col-md-3">
+                          <label for="type" class=" form-control-label">Tipo de
+                            propiedad</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                          <select name="type" id="type" class="form-control" required>
+                            <option value="Casa">Casa</option>
+                            <option value="Departamento">Departamento</option>
+                            <option value="Suite">Suite</option>
+                            <option value="Oficnia">Oficnia</option>
+                            <option value="Bodega">Bodega</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col col-md-3">
+                          <label for="location" class=" form-control-label">Ubicacion</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                          <input type="text" id="location" name="location" placeholder="Ubicacion" class="form-control"
+                            required>
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col col-md-3">
+                          <label for="contract" class=" form-control-label">Tipo de
+                            contrato</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                          <select name="contract" id="contract" class="form-control" required>
+                            <option value="Venta">Venta</option>
+                            <option value="Alquiler">Alquiler</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col col-md-3">
+                          <label for="price" class=" form-control-label">Precio</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                          <input type="number" id="price" name="price" placeholder="Precio" class="form-control"
+                            required min="1">
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col col-md-3">
+                          <label for="description" class=" form-control-label">Descipcion</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                          <textarea name="description" id="description" rows="9" placeholder="Descripcion..."
+                            class="form-control" required></textarea>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="card-footer">
+                      <button id="submit" type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Enviar
+                      </button>
+                      <button id="reset" type="reset" class="btn btn-danger btn-sm">
+                        <i class="fa fa-ban"></i> Limpiar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="copyright">
+                  <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a
+                      href="https://colorlib.com">Colorlib</a>.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Jquery JS-->
+  <script src="vendor/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap JS-->
+  <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+  <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+
+  <!-- Main JS-->
+  <script src="js/form.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->

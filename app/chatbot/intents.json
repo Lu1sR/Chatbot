@@ -1,24 +1,71 @@
-{"intents": [
-    {"tag": "saludos",
-     "patterns": ["Hola","Hola, tengo una consulta","Hola, necesito tu ayuda"],
-     "responses": ["Hola, encantado de saludarte","Hola,en que te puedo ayudar?","Hola,que necesitas saber?"],
-     "context_set": ""
-    },
-    {"tag": "despedida",
-     "patterns": ["Chao", "Nos vemos luego", "Adios","Bye"],
-     "responses": ["Nos vemos luego, gracias por visitarnos", "Ten un buen día", "Bye!, vuelve pronto"]
-    },
-    {"tag": "gracias",
-     "patterns": ["Gracias", "Gracias a ti", "Me fue muy útil, gracias"],
-     "responses": ["Feliz de ayudarte!", "De nada", "Igualmente"]
-    },
-    {"tag": "horas",
-     "patterns": ["A que hora puedo visitarlos?", "A que hora están las oficinas atendiendo?", "Qué días abren?",""],
-     "responses": ["Nosotros atendemos todos los días de 9am-9pm", "Nuestros horarios son 9am-9pm todos los días","Todos los días"]
-    },
-    {"tag": "pagos",
-     "patterns": ["Aceptan tarjetas de crédito?", "Aceptan Mastercard?", "Aceptan solo efectivo?"],
-     "responses": ["Nosotros aceptamos VISA y AMEX","Solo VISA y AMEX","Nosotros preferimos tarjetas de crédito"]
-    }
-]
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "Hola, tengo una consulta",
+                "Hola, necesito tu ayuda"
+            ],
+            "responses": [
+                "Hola, encantado de saludarte",
+                "Hola,en que te puedo ayudar?",
+                "Hola,que necesitas saber?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Chao",
+                "Nos vemos luego",
+                "Adios",
+                "Bye"
+            ],
+            "responses": [
+                "Nos vemos luego, gracias por visitarnos",
+                "Ten un buen día",
+                "Bye!, vuelve pronto"
+            ]
+        },
+        {
+            "tag": "gracias",
+            "patterns": [
+                "Gracias",
+                "Gracias a ti",
+                "Me fue muy útil, gracias"
+            ],
+            "responses": [
+                "Feliz de ayudarte!",
+                "De nada",
+                "Igualmente"
+            ]
+        },
+        {
+            "tag": "horas",
+            "patterns": [
+                "A que hora puedo visitarlos?",
+                "A que hora están las oficinas atendiendo?",
+                "Qué días abren?"
+            ],
+            "responses": [
+                "Nosotros atendemos todos los días de 9am-9pm",
+                "Nuestros horarios son 9am-9pm todos los días",
+                "Todos los días"
+            ]
+        },
+        {
+            "tag": "pagos",
+            "patterns": [
+                "Aceptan tarjetas de crédito?",
+                "Aceptan Mastercard?",
+                "Aceptan solo efectivo?"
+            ],
+            "responses": [
+                "Nosotros aceptamos VISA y AMEX",
+                "Solo VISA y AMEX",
+                "Nosotros preferimos tarjetas de crédito"
+            ]
+        }
+    ]
 }
