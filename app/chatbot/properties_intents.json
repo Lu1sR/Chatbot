@@ -1,1 +1,41 @@
-{"intents": [{"tag": "comprar Casa Kennedy", "patterns": ["comprar Casa Kennedy"], "responses": ["Casa en Venta, ubicada/o en Kennedy, por $ $65000.0, Casa esquinera con garaje para dos carros", "Casa en Venta, ubicada/o en Kennedy, por $ $50000.0, Casa bonita"]}, {"tag": "alquilar Departamento Ceibos", "patterns": ["alquilar Departamento Ceibos"], "responses": ["Departamento en Alquiler, ubicada/o en Ceibos, por $ $800.0, Incluye servicios basicos, e internet"]}, {"tag": "comprar Oficnia Kennedy", "patterns": ["comprar Oficnia Kennedy"], "responses": ["Oficnia en Venta, ubicada/o en Kennedy, por $ $15000.0, Ubicada en la Francisco de Orellana en el edificio Blue Tower"]}]}
+{
+    "intents": [
+        {
+            "tag": "comprar Casa Kennedy",
+            "patterns": [
+                "comprar Casa Kennedy"
+            ],
+            "responses": [
+                "Casa en Venta, ubicada/o en Kennedy, por $65000, Casa esquinera con garaje para dos carros",
+                "Casa en Venta, ubicada/o en Kennedy, por $50000, Casa bonita"
+            ]
+        },
+        {
+            "tag": "alquilar Departamento Ceibos",
+            "patterns": [
+                "alquilar Departamento Ceibos"
+            ],
+            "responses": [
+                "Departamento en Alquiler, ubicada/o en Ceibos, por $800, Incluye servicios basicos, e internet"
+            ]
+        },
+        {
+            "tag": "comprar casa en la Joya",
+            "patterns": [
+                "Hay casas en venta en la Joya?","Estan vendiendo casas en la Joya?","Que precio tienen las casas en la Joya"
+            ],
+            "responses": [
+                "Casa de dos pisos,Etapa Quarzo por $45000, frente al Plaza Tia"
+            ]
+        },
+        {
+            "tag": "comprar casa en Villa Club",
+            "patterns": [
+                "Hay casas en venta en la Villa Club?"
+            ],
+            "responses": [
+                "Casa de dos pisos,Etapa Jupiter por $45000"
+            ]
+        }
+    ]
+}

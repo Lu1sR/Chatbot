@@ -71,7 +71,7 @@ def check_tag(intents_list, tag):
         c += 1
     return (False, -1)
 
-@app.route("/create_model")
+@app.route("/create_model",methods=["GET"])
 def init():
     intents = []
     all_properties = Property.query.all()

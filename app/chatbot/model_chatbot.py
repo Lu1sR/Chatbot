@@ -1,30 +1,74 @@
-import tflearn
-import tensorflow
+from keras.models import Sequential, load_model
+from keras.layers import Dense, Activation, Dropout
+from keras import backend as k
+from keras.optimizers import SGD
 from chatbot.preprocessor import *
+import tensorflow as tf
+import matplotlib.pyplot as plt
 
-tensorflow.reset_default_graph()
 
-net = tflearn.input_data(shape=[None, len(training[0])])
-net = tflearn.fully_connected(net,8)
-net = tflearn.fully_connected(net,8)
-net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
-net = tflearn.regression(net)
+global graph
+graph = tf.get_default_graph()
+a=[]
+b=[]
+train_x=[]
+train_y=[]
 
-model = tflearn.DNN(net)
-    
+
+def plot(history):
+    print(history)
+    plt.plot(history.history['acc'])
+    plt.title('Model accuracy')
+    plt.ylabel('Accuracy')
+    plt.xlabel('Epoch')
+    plt.legend(['Train', 'Test'], loc='upper left')
+    plt.savefig('Accuracy.png')
+    plt.clf()
+
+    # Plot training & validation loss values
+    plt.plot(history.history['loss'])
+    plt.title('Model loss')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoch')
+    plt.legend(['Train', 'Test'], loc='upper left')
+    plt.savefig('Lost.png')
+    plt.clf()
+
 def create_model():
-    model.fit(training, output, n_epoch=3000, batch_size=8, show_metric=True)
-    model.save("model/model.tflearn")
+    a,b=procesar()
+    train_x=a[0]
+    train_y=a[1]
+    print(train_x)
+    print("\n\n\n",train_y)
+    with graph.as_default():
+        model = Sequential()
+        model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+        model.add(Dropout(0.5))
+        model.add(Dense(64, activation='relu'))
+        model.add(Dropout(0.5))
+        model.add(Dense(len(train_y[0]), activation='softmax'))
+        sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+        model.compile(loss='categorical_crossentropy', optimizer=sgd,metrics=['accuracy'])
+        history=model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+        history_dict = history.history
+        model.save("model/model.h5")
+        plot(history)
+
+
+
 
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
 
-    s_words = nltk.word_tokenize(s)
-    s_words = [stemmer.stem(word.lower()) for word in s_words]
+    s_words = tokenizer.tokenize(s.lower())
+    
+    s_words = [stemmer.stem(w.lower()) for w in s_words if w not in list(stop_words)]
+    print(s_words)
 
     for se in s_words:
         for i, w in enumerate(words):
             if w == se:
                 bag[i] = 1
+                print ("found in bag: %s" % w)
             
-    return numpy.array(bag)
+    return np.array(bag)

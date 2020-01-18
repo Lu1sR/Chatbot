@@ -3,7 +3,7 @@
         {
             "tag": "saludos",
             "patterns": [
-                "Hola",
+                "Hola Mi",
                 "Hola, tengo una consulta",
                 "Hola, necesito tu ayuda"
             ],
@@ -12,7 +12,9 @@
                 "Hola,en que te puedo ayudar?",
                 "Hola,que necesitas saber?"
             ],
-            "context_set": ""
+            "context": [
+                ""
+            ]
         },
         {
             "tag": "despedida",
@@ -26,6 +28,9 @@
                 "Nos vemos luego, gracias por visitarnos",
                 "Ten un buen día",
                 "Bye!, vuelve pronto"
+            ],
+            "context": [
+                ""
             ]
         },
         {
@@ -39,32 +44,89 @@
                 "Feliz de ayudarte!",
                 "De nada",
                 "Igualmente"
+            ],
+            "context": [
+                ""
             ]
         },
         {
-            "tag": "horas",
+            "tag": "horarios",
             "patterns": [
                 "A que hora puedo visitarlos?",
                 "A que hora están las oficinas atendiendo?",
-                "Qué días abren?"
+                "Qué días abren sus oficinas?"
             ],
             "responses": [
                 "Nosotros atendemos todos los días de 9am-9pm",
                 "Nuestros horarios son 9am-9pm todos los días",
                 "Todos los días"
+            ],
+            "context": [
+                ""
             ]
         },
         {
             "tag": "pagos",
             "patterns": [
-                "Aceptan tarjetas de crédito?",
-                "Aceptan Mastercard?",
+                "Cuales son los tipos de pagos?",
+                "Se puede pagar mediante el seguro?",
                 "Aceptan solo efectivo?"
             ],
             "responses": [
-                "Nosotros aceptamos VISA y AMEX",
-                "Solo VISA y AMEX",
-                "Nosotros preferimos tarjetas de crédito"
+                "Mediante un préstamo a varios años o efectivo",
+                "Sí, o en efectivo",
+                "Aceptamos efectivo"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "información",
+            "patterns": [
+                "Tienen algun número telefónico? ",
+                "A que número los puedo llamar?",
+                "Como lo puedo contactar?"
+            ],
+            "responses": [
+                "Claro, nos puedes llamar al 0939080599",
+                "convencional: 2453703, celular: 0939080599",
+                "Nos puedes escribir a info_realstate@gmail.com"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "documentos",
+            "patterns": [
+                "Que documentos debo llevar?",
+                "Se necesita algún documento?",
+                "Que papeles debo llevar a su oficina?"
+            ],
+            "responses": [
+                "Copia de cédula, certificado de votación y RUC",
+                "Sí, debes traer copia de cédula y certificado de votación",
+                "Debes presentar tu copia de cédula y certificado de votación"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ubicación",
+            "patterns": [
+                "En donde están ubicadas sus oficinas",
+                "En que lugar se encuentra su oficina?",
+                "En donde están ubicados?"
+            ],
+            "responses": [
+                "Edificio la Previsora PISO 26",
+                "Frente al malecon 2000 edificio la Previsora",
+                "Edificio la Previsora PISO 26"
+            ],
+            "context": [
+                ""
             ]
         }
     ]

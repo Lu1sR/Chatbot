@@ -54,10 +54,10 @@ function enviar_mensaje(msgText){
 function modelo(){
   $.ajax({
     url: '/create_model',
-    dataType: 'json',
+    dataType: 'text',
     type: 'GET',
     success: function (response) {
-      msgBot=response;
+      alert(response)
     }
   });
 }
