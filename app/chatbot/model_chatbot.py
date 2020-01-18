@@ -22,7 +22,7 @@ def plot(history):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Test'], loc='upper left')
-    plt.savefig('Accuracy.png')
+    plt.savefig('results/accuracy.png')
     plt.clf()
 
     # Plot training & validation loss values
@@ -31,7 +31,7 @@ def plot(history):
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Test'], loc='upper left')
-    plt.savefig('Lost.png')
+    plt.savefig('results/lost.png')
     plt.clf()
 
 def create_model():
