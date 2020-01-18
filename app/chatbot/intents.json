@@ -3,7 +3,7 @@
         {
             "tag": "saludos",
             "patterns": [
-                "Hola Mi",
+                "Hola",
                 "Hola, tengo una consulta",
                 "Hola, necesito tu ayuda"
             ],
@@ -22,12 +22,15 @@
                 "Chao",
                 "Nos vemos luego",
                 "Adios",
-                "Bye"
+                "Bye",
+                "Chao, gracias por la informacion"
             ],
             "responses": [
                 "Nos vemos luego, gracias por visitarnos",
                 "Ten un buen día",
-                "Bye!, vuelve pronto"
+                "Adios, fue un gusto ayudarte",
+                "Bye!, vuelve pronto",
+                "De nada, fue un placer ayudarte"
             ],
             "context": [
                 ""
@@ -52,6 +55,7 @@
         {
             "tag": "horarios",
             "patterns": [
+                "En que horarios?",
                 "A que hora puedo visitarlos?",
                 "A que hora están las oficinas atendiendo?",
                 "Qué días abren sus oficinas?"
@@ -59,7 +63,8 @@
             "responses": [
                 "Nosotros atendemos todos los días de 9am-9pm",
                 "Nuestros horarios son 9am-9pm todos los días",
-                "Todos los días"
+                "Desde 9am hasta 9pm",
+                "Nosotros trabajamos toda la semana sin parar"
             ],
             "context": [
                 ""
@@ -86,11 +91,12 @@
             "patterns": [
                 "Tienen algun número telefónico? ",
                 "A que número los puedo llamar?",
-                "Como lo puedo contactar?"
+                "Como me puedo contactar con ustedes?",
+                "Me puede dar un numero al que pueda llamar?"
             ],
             "responses": [
                 "Claro, nos puedes llamar al 0939080599",
-                "convencional: 2453703, celular: 0939080599",
+                "Estos son nuestros números, convencional: 2453703, celular: 0939080599",
                 "Nos puedes escribir a info_realstate@gmail.com"
             ],
             "context": [
@@ -128,6 +134,23 @@
             "context": [
                 ""
             ]
+        },
+        {
+            "tag": "perfil",
+            "patterns": [
+                "Cual es tu edad?",
+                "Cuantos años tienes?"
+            ],
+            "responses": [
+                "Todavía soy joven según tus estándares.",
+                "Soy bastante joven, pero un millón de veces más inteligente que tú."
+            ],
+            "context": [
+                ""
+            ]
         }
+
+
+        
     ]
 }

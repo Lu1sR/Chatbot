@@ -6,17 +6,27 @@
                 "comprar Casa Kennedy"
             ],
             "responses": [
-                "Casa en Venta, ubicada/o en Kennedy, por $65000, Casa esquinera con garaje para dos carros",
-                "Casa en Venta, ubicada/o en Kennedy, por $50000, Casa bonita"
+                "Casa en Venta, ubicada en Kennedy, por $65000, Casa esquinera con garaje para dos carros",
+                "Casa en Venta, ubicada en Kennedy, por $50000, Casa bonita"
             ]
         },
         {
-            "tag": "alquilar Departamento Ceibos",
+            "tag": "alquilar departamento en la Kennedy",
             "patterns": [
-                "alquilar Departamento Ceibos"
+                "necesito alquilar un departamento en la Kennedy"
             ],
             "responses": [
-                "Departamento en Alquiler, ubicada/o en Ceibos, por $800, Incluye servicios basicos, e internet"
+                "Departamento en alquiler en la Kennedy por $650 mensuales, se debe pagar 45 extras por alicuotas",
+                "Ahora tenemos en alquiler un departamento en la Kennedy a $900 mensuales, incluye piscina"
+            ]
+        },
+        {
+            "tag": "alquilar Departamentos en Ceibos",
+            "patterns": [
+                "necesito alquilar un departamento en Ceibos"
+            ],
+            "responses": [
+                "Departamento en Alquiler, ubicada en Ceibos, por $800, Incluye servicios basicos, e internet"
             ]
         },
         {
@@ -31,11 +41,39 @@
         {
             "tag": "comprar casa en Villa Club",
             "patterns": [
-                "Hay casas en venta en la Villa Club?"
+                "Hay casas en venta en Villa Club?","Quiero comprar una casa en Villa club"
             ],
             "responses": [
-                "Casa de dos pisos,Etapa Jupiter por $45000"
+                "Casa de dos pisos,Etapa Jupiter por $45000","Casa esquinera de una planta con piscina en la etapa Cosmos, valor de $55000"
+            ]
+        },
+        {
+            "tag": "alquilar departamento en Central Park",
+            "patterns": [
+                "Quiero alquilar un departamento grande en Central Park","Alquilan departamentos en Central Park?"
+            ],
+            "responses": [
+                "En Central Park hay disponible un departamento con 4 cuartos, $1500 mensuales","En Central Park desocupados departamentos grandes desde $1500 mensuales hasta $3000"
+            ]
+        },
+        {
+            "tag": "alquilar oficinas en edificio la Previsora",
+            "patterns": [
+                "Hay oficinas para alquilar en el edificio la Previsora?","Existen oficinas disponibles para aquiler en la Previsora?"
+            ],
+            "responses": [
+                "En la Previsora hay disponibles 20 oficinas, el alquiler es de $1500 mensuales","Actualmente hay 20 disponibles, el alquiler es de $1500 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar oficinas en edificio la Previsora",
+            "patterns": [
+                "Hay oficinas para alquilar en el edificio la Previsora?","Existen oficinas disponibles para aquiler en la Previsora?"
+            ],
+            "responses": [
+                "Hay disponibles 20 oficinas, el alquiler es de $1500 mensuales","Actualmente hay 20 disponibles, el alquiler es de $1500 mensuales"
             ]
         }
+
     ]
 }
