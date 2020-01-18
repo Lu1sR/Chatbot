@@ -104,7 +104,7 @@
             ]
         },
         {
-            "tag": "documentos",
+            "tag": "documentos que se deben llevar",
             "patterns": [
                 "Que documentos debo llevar?",
                 "Se necesita algún documento?",
