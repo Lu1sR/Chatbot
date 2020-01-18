@@ -2,16 +2,10 @@
 
 1 - Instalar 
 ---------------
-* pip install tensorflow
-* pip install nltk
-* pip install tflearn
-* pip install numpy
+* pip install -r requirements.txt
 
-Servidor:
-
-* pip install Flask
-* export FLASK_APP=app/main.py 
 
 2 - Iniciar
 ---------------
+* export FLASK_APP=app/main.py 
 * flask run  
