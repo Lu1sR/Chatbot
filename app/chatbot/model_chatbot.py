@@ -52,6 +52,9 @@ def create_model():
         history=model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
         history_dict = history.history
         model.save("model/model.h5")
+        model.summary()
+        scoresTraining = model.evaluate(np.array(train_x),np.array(train_y),verbose=1,batch_size=5)
+        print("\n%s: %.2f%%" % (model.metrics_names[1], scoresTraining[1]*100))
         plot(history)
 
 

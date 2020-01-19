@@ -18,7 +18,7 @@ property_data = json.load(open(os.path.join(SITE_ROOT,'properties_intents.json')
 
 for property_intent in property_data['intents']:
     data['intents'].append(property_intent)
-tokenizer = RegexpTokenizer(r'\w+')
+tokenizer = RegexpTokenizer(r'[a-zA-Z0-9]+|[$]?[0-9]+[.]?[0-9]*')
 
 def procesar():
 

@@ -328,6 +328,71 @@
                 "Tenemos una casa pequeña muy cerca del Riocentro el Dorado que se esta vendiendo en $30000",
                 "Se esta vendiendo una casa pequeña en el Condado,su precio es de $350000 "
             ]
+        },
+
+        {
+            "tag": "casas de dos pisos",
+            "patterns": [
+                "Deseo comprar una casa de dos pisos",
+                "Estan vendiendo casas de dos pisos?",
+                "Quiero comprar una casa de dos pisos",
+                "Deseo comprar una casa de 2 pisos",
+                "Estan vendiendo casas de 2 pisos?",
+                "Quiero comprar una casa de 2 pisos"
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay casas de dos pisos que se venden desde $25000 hasta $50000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa con esa caracteristica en la Alborada,su precio es de $350000 "
+            ]
+        },
+
+        {
+            "tag": "buscar,comprar casas precio moderado",
+            "patterns": [
+                "Deseo comprar una casa a un precio moderado",
+                "Estan vendiendo casas con precios accesibles?",
+                "Estoy buscando una casa a un buen precio"
+
+            ],
+            "responses": [
+                "En La Urbanización Villa Club, estan vendiendo una casa en $35000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa a buen precio en la Alborada,los propietarios piden $350000 "
+            ]
+        },
+
+        {
+            "tag": "buscar,comprar casas precio moderado",
+            "patterns": [
+                "Deseo comprar una casa a un precio moderado",
+                "Estan vendiendo casas con precios accesibles?",
+                "Estoy buscando una casa a un buen precio"
+
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay casas de dos pisos que se venden desde $25000 hasta $50000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa con esa caracteristica en la Alborada,su precio es de $350000 "
+            ]
+        },
+
+        {
+            "tag": "casas de $50000",
+            "patterns": [
+                "Quiero comprar una casa de $50000,50000",
+                "Tienen casas de $50000,50000",
+                "Estoy buscando una casa a $50000,50000"
+
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay una casa que se vende a $50000, esta ubicada en Rey Arturo",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $50000",
+                "Se esta vendiendo una casa a ese precio en Urdesa"
+            ]
         }
+
+
+
     ]
 }
