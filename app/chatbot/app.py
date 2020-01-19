@@ -57,7 +57,8 @@ def chat(msg):
         while results:
             for i in data["intents"]:
                 if i["tag"] == results[0][0]:
-
+                        if(float(results[0][1])<0.75):
+                            return "Aun no estoy entrenado para responder esa pregunta"
                         return random.choice(i["responses"])
    
     

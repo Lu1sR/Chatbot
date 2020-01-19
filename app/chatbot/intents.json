@@ -87,17 +87,31 @@
             ]
         },
         {
-            "tag": "información",
+            "tag": "numero telefonico",
             "patterns": [
                 "Tienen algun número telefónico? ",
                 "A que número los puedo llamar?",
-                "Como me puedo contactar con ustedes?",
                 "Me puede dar un numero al que pueda llamar?"
             ],
             "responses": [
-                "Claro, nos puedes llamar al 0939080599",
+                "Nos puedes llamar al 0939080599",
                 "Estos son nuestros números, convencional: 2453703, celular: 0939080599",
-                "Nos puedes escribir a info_realstate@gmail.com"
+                "Llamanos al 0939080599, te atenderemos con gusto"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "correo electronico",
+            "patterns": [
+                
+                "Como me puedo contactar con ustedes?",
+                "A que correo les puedo escribir?"
+            ],
+            "responses": [
+                "Nos puedes escribir a info_realstate@gmail.com para obtener mayor informacion",
+                "Nos puedes escribir al correo info_realstate@gmail.com"
             ],
             "context": [
                 ""
@@ -149,6 +163,7 @@
                 ""
             ]
         }
+
 
 
         

@@ -7,7 +7,7 @@
             ],
             "responses": [
                 "Casa en Venta, ubicada en Kennedy, por $65000, Casa esquinera con garaje para dos carros",
-                "Casa en Venta, ubicada en Kennedy, por $50000, Casa bonita"
+                "Casa en Venta, ubicada en Kennedy, por $50000, es una casa muy bonita"
             ]
         },
         {
@@ -32,48 +32,302 @@
         {
             "tag": "comprar casa en la Joya",
             "patterns": [
-                "Hay casas en venta en la Joya?","Estan vendiendo casas en la Joya?","Que precio tienen las casas en la Joya"
+                "Hay casas en venta en la Joya?",
+                "Estan vendiendo casas en la Joya?",
+                "Que precio tienen las casas en la Joya?"
             ],
             "responses": [
-                "Casa de dos pisos,Etapa Quarzo por $45000, frente al Plaza Tia"
+                "Casa de dos pisos,Etapa Quarzo por $45000, frente al Plaza Tia",
+                "Casa de dos pisos,Etapa Platino por $4000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en la Joya",
+            "patterns": [
+                "Hay casas en alquiler en la Joya?",
+                "Estan alquilando casas en la Joya?",
+                "Que precio tiene el alquiler de una casa en la Joya?"
+            ],
+            "responses": [
+                "Casa de dos pisos,Etapa Quarzo se alquila en $550, frente al Plaza Tia",
+                "Casa de dos pisos,Etapa Platino se alquila en $450"
             ]
         },
         {
             "tag": "comprar casa en Villa Club",
             "patterns": [
-                "Hay casas en venta en Villa Club?","Quiero comprar una casa en Villa club"
+                "Hay casas en venta en Villa Club?",
+                "Quiero comprar una casa en Villa club"
             ],
             "responses": [
-                "Casa de dos pisos,Etapa Jupiter por $45000","Casa esquinera de una planta con piscina en la etapa Cosmos, valor de $55000"
+                "Casa de dos pisos,Etapa Jupiter por $45000",
+                "Casa esquinera de una planta con piscina en la etapa Cosmos, valor de $55000"
+            ]
+        },
+        {
+            "tag": "alquilar casa en Villa Club",
+            "patterns": [
+                "Estan alquilando casas en Villa Club?",
+                "Quiero alquilar una casa en Villa club",
+                "Hay casas en alquiler en Villa Club?"
+            ],
+            "responses": [
+                "Se está alquilando una casa en la Etapa Jupiter por $650",
+                "Se alquila Casa esquinera de una planta con piscina en la etapa Cosmos, valor de $850"
             ]
         },
         {
             "tag": "alquilar departamento en Central Park",
             "patterns": [
-                "Quiero alquilar un departamento grande en Central Park","Alquilan departamentos en Central Park?"
+                "Quiero alquilar un departamento grande en Central Park",
+                "Alquilan departamentos en Central Park?"
             ],
             "responses": [
-                "En Central Park hay disponible un departamento con 4 cuartos, $1500 mensuales","En Central Park desocupados departamentos grandes desde $1500 mensuales hasta $3000"
+                "En Central Park hay disponible un departamento con 4 cuartos, $1500 mensuales",
+                "En Central Park desocupados departamentos grandes desde $1500 mensuales hasta $3000"
             ]
         },
         {
             "tag": "alquilar oficinas en edificio la Previsora",
             "patterns": [
-                "Hay oficinas para alquilar en el edificio la Previsora?","Existen oficinas disponibles para aquiler en la Previsora?"
+                "Hay oficinas para alquilar en el edificio la Previsora?",
+                "Existen oficinas disponibles para aquiler en la Previsora?"
             ],
             "responses": [
-                "En la Previsora hay disponibles 20 oficinas, el alquiler es de $1500 mensuales","Actualmente hay 20 disponibles, el alquiler es de $1500 mensuales"
+                "En la Previsora hay disponibles 20 oficinas, el alquiler es de $1500 mensuales",
+                "Actualmente hay 20 disponibles, el alquiler es de $1500 mensuales"
             ]
         },
         {
-            "tag": "alquilar oficinas en edificio la Previsora",
+            "tag": "alquilar oficinas en el norte",
             "patterns": [
-                "Hay oficinas para alquilar en el edificio la Previsora?","Existen oficinas disponibles para aquiler en la Previsora?"
+                "Hay oficinas para alquilar en el norte de la ciudad?",
+                "Alquilan oficinas en el norte?"
             ],
             "responses": [
-                "Hay disponibles 20 oficinas, el alquiler es de $1500 mensuales","Actualmente hay 20 disponibles, el alquiler es de $1500 mensuales"
+                "Hay disponibles 10 oficinas en Plaza mayor, el alquiler es de $500 mensuales",
+                "Actualmente hay 10 oficinas disponibles en Plaza Mayor, el alquiler es de $500 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar casas en la Alborada",
+            "patterns": [
+                "Quiero alquilar una casa en la Alborada",
+                "Estan alquilando casas en la Alborada?"
+            ],
+            "responses": [
+                "Tenemos disponible una casa de dos pisos en la Alborada cerca del Mcdonalds, el alquiler es de $700 mensuales",
+                "Actualmente hay una casa muy grande ubicada cerca del Banco de Pichincha, que se alquila en $850 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar casas en la Alborada",
+            "patterns": [
+                "Quiero comprar una casa en la Alborada",
+                "Estan vendiendo casas en la Alborada?"
+            ],
+            "responses": [
+                "Tenemos disponible una casa de dos pisos en la Alborada 5ta etapa,el precio de venta es de $45000",
+                "Actualmente hay una casa muy grande en la Alborada 2da Etapa que se vende, el valor es de $85000, el pago es en dos partes"
+            ]
+        },
+        {
+            "tag": "comprar casas en Mapasingue Oeste",
+            "patterns": [
+                "Deseo comprar una casa en Mapasingue Oeste",
+                "Esta vendiendo casas en Mapasingue Oeste?"
+            ],
+            "responses": [
+                "Tenemos disponible una casa de tres pisos,el precio de venta es de $50000",
+                "Actualmente hay una casa muy grande que se vende, el valor es de $75000"
+            ]
+        },
+        {
+            "tag": "comprar casas en Portete",
+            "patterns": [
+                "Deseo comprar una casa en Portete",
+                "Estan vendiendo casas en Portete?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en la 29 y Portete, el precio es $30000",
+                "Tenemos una casa en la 26 y Portete que se vende en $15000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en Metropolis",
+            "patterns": [
+                "Busco una casa para alquilar en Metropolis",
+                "Estan alquilando casas en Metropolis?"
+            ],
+            "responses": [
+                "Hay una casa que se alquila en Metropolis I, el precio es $450 mensuales",
+                "Tenemos una casa mediana en Metropolis II que se alquila en $500"
+            ]
+        },
+        {
+            "tag": "comprar casas en Metropolis",
+            "patterns": [
+                "Busco una casa que este en venta en Metropolis",
+                "Estan vendiendo casas en Metropolis?"
+            ],
+            "responses": [
+                "Hay una casa que se vende en Metropolis I, el precio es $42500 ",
+                "Tenemos una casa mediana en Metropolis II que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "comprar casas en Villas del Rey",
+            "patterns": [
+                "Deseo comprar una casa en Villas del Rey",
+                "Estan vendiendo casas en Villas del Rey?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en la etapa Rey Arturo, el precio es $30000",
+                "Tenemos una casa en la etapa Diana que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "comprar casas en el centro de la ciudad",
+            "patterns": [
+                "Deseo comprar una casa en el centro de Guayaquil",
+                "Estan vendiendo casas en el centro?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada a cinco cuadras del Malecón, el precio es $30000",
+                "Tenemos una casa muy cerca del parque Seminario que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en el centro de la ciudad",
+            "patterns": [
+                "Deseo alquilar una casa en el centro de Guayaquil",
+                "Estan alquilando casas en el centro?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada a cinco cuadras del Malecón, el precio de alquiler es de $680",
+                "Tenemos una casa muy cerca del parque Seminario que se alquila en $600"
+            ]
+        },
+        {
+            "tag": "comprar casas en el sur de la ciudad",
+            "patterns": [
+                "Deseo comprar una casa en el sur de Guayaquil",
+                "Estan vendiendo casas en el sur?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio es $20000",
+                "Tenemos una casa muy cerca del parque Acuatico del Guasmo que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en el sur de la ciudad",
+            "patterns": [
+                "Deseo alquilar una casa en el sur de Guayaquil",
+                "Estan alquilando casas en el sur?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio de alquiler es $400",
+                "Tenemos una casa muy cerca del parque Acuatico del Guasmo que se alquila en $350"
+            ]
+        },
+        {
+            "tag": "comprar casas en Samanes",
+            "patterns": [
+                "Deseo comprar una casa ubicada en Samanes",
+                "Estan vendiendo casas en Samanes?"
+            ],
+            "responses": [
+                "Esta en venta una casa ubicada en Samanes 7, el precio es $40000",
+                "Tenemos una casa muy cerca del parque Samanes que se vende en $45000"
+            ]
+        },
+        {
+            "tag": "comprar casas en el norte de Guayaquil",
+            "patterns": [
+                "Deseo comprar una casa ubicada en el norte de la ciudad",
+                "Estan vendiendo casas en el norte?",
+                "En que parte del norte estan vendiendo casas?"
+            ],
+            "responses": [
+                "Esta en venta una casa ubicada en la Alborada 2da Etapa, el precio es $40000",
+                "Tenemos una casa muy cerca del parque Samanes que se vende en $45000",
+                "Tenemos una casa muy cerca del Riocentro Norte que se vende en $55000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en el norte de Guayaquil",
+            "patterns": [
+                "Deseo alquilar una casa ubicada en el norte de la ciudad",
+                "Estan alquilando casas en el norte?",
+                "En que parte del norte estan alquilando casas?"
+            ],
+            "responses": [
+                "Se esta alquilando una casa ubicada en Mapasingue Este, el precio es $450 mensuales",
+                "Tenemos una casa muy cerca del parque Samanes que se alquila en $500",
+                "Tenemos una casa muy cerca del Riocentro Norte que se alquila en $550"
+            ]
+        },
+        {
+            "tag": "alquilar casas en Samanes ",
+            "patterns": [
+                "Deseo alquilar una casa ubicada en Samanes",
+                "Estan alquilando casas en Samanes?"
+            ],
+            "responses": [
+                "Se está alquilando una casa ubicada en Samanes 5, el precio es $600 mensuales",
+                "Tenemos una casa muy cerca del parque Samanes que se alquila en $550"
+            ]
+        },
+        {
+            "tag": "caracteristicas sobre la casa",
+            "patterns": [
+                "Que caracteristicas tiene la casa?",
+                "Quiero saber mas sobre la casa, estoy interesado",
+                "Estoy interesado en la casa, puede darme más detalles"
+            ],
+            "responses": [
+                "Para mayor información puedes comunicarte con Luis: 0939080599",
+                "Si quieres saber más sobre la casa escribenos a: info_realstate@gmail.com para hacerte llegar la información."
+            ]
+        },
+        {
+            "tag": "comprar casas baratas",
+            "patterns": [
+                "Deseo comprar una casa que sea barata",
+                "Estan vendiendo casas baratas?",
+                "Quiero comprar una casa a un buen precio"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio es $20000",
+                "Tenemos una casa muy cerca del parque Acuatico del Guasmo que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "comprar casas en Samborondon",
+            "patterns": [
+                "Deseo comprar una casa en Samborondon",
+                "Estan vendiendo casas en Samborondon?",
+                "Quiero comprar una casa en Samboorondon",
+                "Hay casas en venta en samborondon?"
+            ],
+            "responses": [
+                "En La Urbanización Matices,ubicada en samborondon, hay casas que se venden desde $150000 hasta $300000",
+                "Tenemos una casa muy cerca de Plaza Lagos que se esta vendiendo en $250000",
+                "Se esta vendiendo una casa en la isla Mocolí por $350000, es muy grande"
+            ]
+        },
+        {
+            "tag": "comprar casas pequeñas",
+            "patterns": [
+                "Deseo comprar una casa pequeñas",
+                "Estan vendiendo casas pequeñas?",
+                "Quiero comprar una casa pequeña"
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay casas pequeñas que se venden desde $25000 hasta $50000",
+                "Tenemos una casa pequeña muy cerca del Riocentro el Dorado que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa pequeña en el Condado,su precio es de $350000 "
             ]
         }
-
     ]
 }
