@@ -2,17 +2,17 @@ from keras.models import Sequential, load_model
 from keras.layers import Dense, Activation, Dropout
 from keras import backend as k
 from keras.optimizers import SGD
-from chatbot.preprocessor import *
+from app.chatbot.preprocessor import *
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
 
 global graph
 graph = tf.get_default_graph()
-a=[]
-b=[]
-train_x=[]
-train_y=[]
+a = []
+b = []
+train_x = []
+train_y = []
 
 
 def plot(history):
@@ -34,41 +34,44 @@ def plot(history):
     plt.savefig('results/lost.png')
     plt.clf()
 
+
 def create_model():
-    a,b=procesar()
-    train_x=a[0]
-    train_y=a[1]
+    a, b = procesar()
+    train_x = a[0]
+    train_y = a[1]
     print(train_x)
-    print("\n\n\n",train_y)
+    print("\n\n\n", train_y)
     with graph.as_default():
         model = Sequential()
-        model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+        model.add(Dense(128, input_shape=(
+            len(train_x[0]),), activation='relu'))
         model.add(Dropout(0.5))
         model.add(Dense(64, activation='relu'))
         model.add(Dropout(0.5))
         model.add(Dense(len(train_y[0]), activation='softmax'))
         sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-        model.compile(loss='categorical_crossentropy', optimizer=sgd,metrics=['accuracy'])
-        history=model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+        model.compile(loss='categorical_crossentropy',
+                      optimizer=sgd, metrics=['accuracy'])
+        history = model.fit(np.array(train_x), np.array(
+            train_y), epochs=200, batch_size=5, verbose=1)
         history_dict = history.history
         model.save("model/model.h5")
         plot(history)
-
-
 
 
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
 
     s_words = tokenizer.tokenize(s.lower())
-    
-    s_words = [stemmer.stem(w.lower()) for w in s_words if w not in list(stop_words)]
+
+    s_words = [stemmer.stem(w.lower())
+               for w in s_words if w not in list(stop_words)]
     print(s_words)
 
     for se in s_words:
         for i, w in enumerate(words):
             if w == se:
                 bag[i] = 1
-                print ("found in bag: %s" % w)
-            
+                print("found in bag: %s" % w)
+
     return np.array(bag)

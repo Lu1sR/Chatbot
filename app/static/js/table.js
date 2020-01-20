@@ -8,22 +8,39 @@ document.addEventListener('DOMContentLoaded', async () => {
     let modal = $('#modal');
     let modalMsg = $('#modal-body-msg');
 
+    const spinner = document.createElement('div');
+    spinner.classList.add('spinner-border');
+    spinner.classList.add('spinner-border-sm');
+
+    const icon = document.createElement('i');
+    icon.classList.add('fas');
+    icon.classList.add('fa-sync-alt');
+
+    const text = 'RE ENTRENAR BOT';
+
     btnRetrain.onclick = () => callRetrain();
 
     function callRetrain() {
         btnRetrain.disabled = true;
+
+        btnRetrain.innerHTML = '';
+        btnRetrain.appendChild(spinner);
+
         $.ajax({
             url: `/create_model`,
             type: 'GET',
             success: () => {
-                btnRetrain.disabled = false;
                 modalMsg.text('Chatbot re entrnado exitosamente');
-                modal.modal('show');
             },
             error: (error) => {
                 console.log(error);
-                btnRetrain.disabled = false;
                 modalMsg.text('Error al re entrenar el chatbot');
+            },
+            complete: () => {
+                btnRetrain.innerHTML = '';
+                btnRetrain.appendChild(icon);
+                btnRetrain.innerHTML += text;
+                btnRetrain.disabled = false;
                 modal.modal('show');
             }
         });

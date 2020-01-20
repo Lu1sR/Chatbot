@@ -1,14 +1,14 @@
-$(document).ready(function() {
-  $('.msger-input').keyup(function(e){
-    if(e.keyCode == 13)
-    {
-        enviar();
+$(document).ready(function () {
+  $('.msger-input').keyup(function (e) {
+    if (e.keyCode == 13) {
+      enviar();
     }
   });
 
 });
 
-var msgerChat,msgBot
+
+var msgerChat, msgBot
 const BOT_MSGS = [
   "Hi, how are you?",
   "Ohh... I can't understand what you trying to say. Sorry!",
@@ -17,50 +17,48 @@ const BOT_MSGS = [
   "I feel sleepy! :("
 ];
 
+
 const BOT_IMG = "https://image.flaticon.com/icons/svg/2040/2040653.svg";
 const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
 const BOT_NAME = "BOT";
 const PERSON_NAME = "YOU";
 
 
-function enviar () {
- 
+function enviar() {
   const msgerInput = get(".msger-input");
   msgerChat = get(".msger-chat");
   const msgText = msgerInput.value;
   if (!msgText) return;
-
   appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
   enviar_mensaje(msgText);
   msgerInput.value = "";
   botResponse();
-
 }
 
 
-function enviar_mensaje(msgText){
+function enviar_mensaje(msgText) {
   $.ajax({
-    url: '/input/'+msgText,
+    url: '/input/' + msgText,
     dataType: 'json',
     type: 'GET',
     success: function (response) {
-      msgBot=response;
+      msgBot = response;
     }
   });
 }
 
 
+// function modelo(){
+//   $.ajax({
+//     url: '/create_model',
+//     dataType: 'text',
+//     type: 'GET',
+//     success: function (response) {
+//       alert(response)
+//     }
+//   });
+// }
 
-function modelo(){
-  $.ajax({
-    url: '/create_model',
-    dataType: 'text',
-    type: 'GET',
-    success: function (response) {
-      alert(response)
-    }
-  });
-}
 
 function appendMessage(name, img, side, text) {
   const msgHTML = `
@@ -82,14 +80,16 @@ function appendMessage(name, img, side, text) {
   msgerChat.scrollTop += 500;
 }
 
+
 function botResponse() {
- /*const delay = msgText.split(" ").length * 100;*/
+  /*const delay = msgText.split(" ").length * 100;*/
   const delay = 500;
 
   setTimeout(() => {
     appendMessage(BOT_NAME, BOT_IMG, "left", msgBot);
   }, delay);
 }
+
 
 // Utils
 function get(selector, root = document) {
