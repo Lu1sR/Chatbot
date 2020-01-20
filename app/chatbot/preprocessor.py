@@ -24,6 +24,7 @@ for property_intent in property_data['intents']:
     properties_tags.append(property_intent['tag'])
 
 tokenizer = RegexpTokenizer(r'\w+')
+tokenizer = RegexpTokenizer(r'[a-zA-Z0-9]+|[$]?[0-9]+[.]?[0-9]*')
 
 
 def procesar():

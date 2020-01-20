@@ -30,7 +30,7 @@
                 "Ten un buen día",
                 "Adios, fue un gusto ayudarte",
                 "Bye!, vuelve pronto",
-                "De nada, fue un placer ayudarte"
+                "Chao, fue un placer ayudarte"
             ],
             "context": [
                 ""
@@ -105,7 +105,6 @@
         {
             "tag": "correo electronico",
             "patterns": [
-                
                 "Como me puedo contactar con ustedes?",
                 "A que correo les puedo escribir?"
             ],
@@ -163,9 +162,5 @@
                 ""
             ]
         }
-
-
-
-        
     ]
 }
