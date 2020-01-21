@@ -1,15 +1,14 @@
 import json
-import os
 
 from flask import *
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 
+import os
 from app.chatbot.app import *
 
-
 app = Flask(__name__,
-            static_url_path='',
+            static_url_path='', 
             static_folder='static',
             template_folder='static/templates')
 
