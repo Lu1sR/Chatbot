@@ -63,11 +63,11 @@ def chat(msg):
                     if i['tag'] in properties_tags:
                         response_template = ''
                         if len(i['responses']) > 1:
-                            properties_options = '; '.join(i["responses"])
-                            response_template = f'Claro que si, contamos con varias opciones como: {properties_options}'
+                            properties_options = f'</li><li>'.join(i["responses"])
+                            response_template = f'<b>Esto fue lo que pude encontrar:</b><li> {properties_options}'
                         else:
                             print('Si entro a la validacion')
-                            response_template = f'Claro que si, por el momento solo contamos con la opcion: {i["responses"][0]}'
+                            response_template = f'<b>Por el momento solo pude encontrar esto:</b> {i["responses"][0]}'
                         print(response_template)
                         return response_template
                     return random.choice(i["responses"])
