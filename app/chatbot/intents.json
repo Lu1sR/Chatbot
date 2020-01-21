@@ -161,6 +161,23 @@
             "context": [
                 ""
             ]
+        },
+        {
+            "tag": "reserva",
+            "patterns": [
+                "Deseo reservar una visita",
+                "Cuando puedo tener una visita",
+                "Deseo ver la propiedad",
+                "Quiero ver la propiedad",
+                "Quiero ver el departamento",
+                "Quiero ver la casa"
+            ],
+            "responses": [
+                "Claro, puedes reservar una visita enviandonos tus datos por aqui o por nuestro correo. Te responderemos a tu correo confirmando la visita."
+            ],
+            "context": [
+                ""
+            ]
         }
     ]
 }

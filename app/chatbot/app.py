@@ -64,9 +64,8 @@ def chat(msg):
                         response_template = ''
                         if len(i['responses']) > 1:
                             properties_options = '; '.join(i["responses"])
-                            response_template = f'Claro que si, contamos con varias opciones como: {properties_options}'
+                            response_template = f'Claro que si : {properties_options}'
                         else:
-                            print('Si entro a la validacion')
                             response_template = f'Claro que si, por el momento solo contamos con la opcion: {i["responses"][0]}'
                         print(response_template)
                         return response_template

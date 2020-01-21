@@ -166,6 +166,7 @@ pyvenv.cfg
 .env
 .venv
 env/
+env2/
 venv/
 ENV/
 env.bak/
