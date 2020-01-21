@@ -383,6 +383,140 @@
                 "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $50000",
                 "Se esta vendiendo una casa a ese precio en Urdesa"
             ]
+        },
+        {
+            "tag": "casas de $30000",
+            "patterns": [
+                "Quiero comprar una casa de $30000,30000",
+                "Tienen casas de $30000,30000",
+                "Estoy buscando una casa a $30000,30000"
+            ],
+            "responses": [
+                "En Urdesa, hay una casa que se vende a $30000, esta tiene un pequeño garaje",
+                "Tenemos una casa de dos pisos ubicada cerca del Riocentro Sur que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa a ese precio en la Prosperina"
+            ]
+        },
+        {
+            "tag": "alquilar departamentos cerca Espol",
+            "patterns": [
+                "Quiero alquilar un departamento cerca de Espol",
+                "Estan alquilando departamentos cerca de espol?",
+                "Estoy buscando un departamento que este cerca de la espol"
+            ],
+            "responses": [
+                "En la Prosperina, hay un departamento que se alquila a $200 mesuales, es bastante pequeño",
+                "En la Martha de Roldos se está alquilando una casa en $300 mensuales",
+                "En ceibos alquilan un departamento a $500 mensuales,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamentos cerca universidad católica, U católica",
+            "patterns": [
+                "Quiero alquilar un departamento cerca de la universidad católica",
+                "Estan alquilando departamentos cerca de la U católica?",
+                "Estoy buscando un departamento que este cerca la la universidad  católica"
+            ],
+            "responses": [
+                "En Ceibos, hay un departamento que se alquila a $500 mesuales, tiene un pequeño garaje",
+                "En Urdesa Central se está alquilando un departamento en $300 mensuales",
+                "Se está alquilando un departamento a $450 mensuales en lomas de Urdesa"
+            ]
+        },
+    
+        {
+            "tag": "alquilar departamento en Portete",
+            "patterns": [
+                "Quiero alquilar un departanento en Portete",
+                "Estan alquilando departamentos en Portete?",
+                "Estoy buscando un departamento que se este alquilando en Portete"
+            ],
+            "responses": [
+                "En la 26 y Portete, hay un departamento que se alquila a $200 mesuales, es bastante pequeño",
+                "En la 29 y Portete se está alquilando un departamento en $350 mensuales",
+                "En la 26 y San Martín se alquila un departamento a $500 mensuales,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamentos baratos",
+            "patterns": [
+                "Quiero alquilar un departamento que sea barato",
+                "Estan alquilando departamentos a bajos precios?",
+                "Estoy buscando un departamento que se este alquilando a un precio bajo"
+            ],
+            "responses": [
+                "En la Prosperina, hay un departamento que se alquila a $200 mesuales, es bastante pequeño",
+                "En Urdesa Central se está alquilando un departamento en $300 mensuales",
+                "En la 25 y Portete alquilan un departamento a $300 mensuales,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamento en Urdesa",
+            "patterns": [
+                "Quiero alquilar un departanento en Urdesa",
+                "Estan alquilando departamentos en Urdesa?",
+                "Estoy buscando un departamento que se este alquilando en Urdesa"
+            ],
+            "responses": [
+                "En Lomas de Urdesa, hay un departamento que se alquila a $550 mesuales,tiene 3 habitaciones",
+                "En Urdesa Central se está alquilando un departamento en $500 mensuales",
+                "En Urdesa Norte alquilan un departamento a $600,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamento grande",
+            "patterns": [
+                "Quiero alquilar un departanento grande",
+                "Estan alquilando departamentos grandes?",
+                "Estoy buscando un departamento que sea bastante grande"
+            ],
+            "responses": [
+                "En Lomas de Urdesa, hay un departamento que se alquila a $550 mesuales,tiene 3 habitaciones",
+                "En Mapasingue Este se está alquilando un departamento en $500 mensuales, tiene 2 baños y 4 habitaciones",
+                "En Urdesa Norte alquilan un departamento a $600,el departamento tiene un garaje, 3 baños y 3 habitaciones"
+            ]
+        },
+        {
+            "tag": "alquilar departamento con piscina",
+            "patterns": [
+                "Quiero alquilar un departanento que tenga piscina",
+                "Estan alquilando departamentos con piscina?",
+                "Estoy buscando un departamento que tenga una piscina",
+                "Quiero alquilar un departamento grande con piscina"
+            ],
+            "responses": [
+                "En Aquamarina, hay un departamento que se alquila a $850 mensuales y tiene una pequeña piscina",
+                "En Vistasol ubicada en Samborondon se está alquilando un departamento en $750 mensuales, tiene la piscina en el patio",
+                "En Terrasol alquilan un departamento a $800,tiene un garaje, 3 baños y 3 habitaciones y una piscina"
+            ]
+        },
+        {
+            "tag": "urbanizaciones con casas en venta",
+            "patterns": [
+                "En que urbanizaciones estan vendiendo casas?","En cuales urbanizaciones venden casas?","En que urbanizaciones hay casas en venta?"
+            ],
+            "responses": [
+                "Villa Club",
+                "Villa del Rey",
+                "La Joya",
+                "Central Park",
+                "VistaSol",
+                "Aquamarina",
+                "TerraSol"
+            ]
+        },
+        {
+            "tag": "comprar casa en Orquideas",
+            "patterns": [
+                "Quiero comprar una casa que este ubicada en Orquideas",
+                "Estan vendiendo casas en las Orquideas",
+                "Estoy buscando una casa que este en venta en las Orquideas"
+            ],
+            "responses": [
+                "Cerca del Gran Akí de Orquideas, hay una casa que se venden en $40000",
+                "En el redondel de las Orquídeas, hay una casa que se vende por $30000",
+                "En Orquideas se está vendiendo una casa por $28000"
+            ]
         }
     ]
 }
