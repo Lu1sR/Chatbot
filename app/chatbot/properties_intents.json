@@ -1,1 +1,682 @@
-{"intents": [{"tag": "alquilar Departamento Kennedy", "patterns": ["Necesito alquilar un Departamento en Kennedy", "Hay Departamentos en alquiler en Kennedy?", "Estan alquilando Departamentos en Kennedy?", "Que precio tiene el alquiler de un Departamento en Kennedy", "Quiero alquilar un Departamento en Kennedy", "Deseo alquilar un Departamento en Kennedy", "Busco un Departamento para alquilar en Kennedy", "Que precio tienen los Departamentos en Kennedy?"], "responses": ["Departamento en alquiler, ubicaci\u00f3n:Kennedy por $ 250.0 mensuales, Incluye servicios basicos", "En Kennedy hay disponible un Departamento con tres habitaciones,  incluye servicios basicos, tiene garaje, $ 400.0 mensuales"]}, {"tag": "comprar Casa Kennedy vieja", "patterns": ["Necesito comprar una Casa en Kennedy vieja", "Hay Casas en venta en Kennedy vieja?", "Estan vendiendo Casas en Kennedy vieja?", "Que precio tiene el venta de una Casa en Kennedy vieja", "Quiero comprar una Casa en Kennedy vieja", "Deseo comprar una Casa en Kennedy vieja", "Busco una Casa para comprar en Kennedy vieja", "Que precio tienen las Casas en Kennedy vieja?"], "responses": ["Se vende Casa Una planta, esquinera, con garaje, ubicaci\u00f3n: Kennedy vieja, valor de $ 40000.0 "]}, {"tag": "alquilar Suite Samborondon", "patterns": ["Necesito alquilar una Suite en Samborondon", "Hay Suites en alquiler en Samborondon?", "Estan alquilando Suites en Samborondon?", "Que precio tiene el alquiler de una Suite en Samborondon", "Quiero alquilar una Suite en Samborondon", "Deseo alquilar una Suite en Samborondon", "Busco una Suite para alquilar en Samborondon", "Que precio tienen las Suites en Samborondon?"], "responses": ["En Samborondon hay disponible una Suite con tiene 2 ba\u00f1os, sala de juegos y una peque\u00f1a piscina., $ 1200.0 mensuales", "Se alquila Suite tiene 3 habitaciones, 2 ba\u00f1os, una cocina de lujo y una mesa de billar., ubicaci\u00f3n: Samborondon, valor de $ 950.0 mensuales"]}, {"tag": "alquilar Oficina World Trade Center", "patterns": ["Necesito alquilar una Oficina en World Trade Center", "Hay Oficinas en alquiler en World Trade Center?", "Estan alquilando Oficinas en World Trade Center?", "Que precio tiene el alquiler de una Oficina en World Trade Center", "Quiero alquilar una Oficina en World Trade Center", "Deseo alquilar una Oficina en World Trade Center", "Busco una Oficina para alquilar en World Trade Center", "Que precio tienen las Oficinas en World Trade Center?"], "responses": ["Oficina en alquiler, ubicaci\u00f3n:World Trade Center por $ 1200.0 mensuales, grande con 8 habitaciones, aire acondicionado, y servicio de limpieza diario.", "Se alquila Oficina aire acondicionado, 5 habitaciones de trabajo y un ba\u00f1o, el servicio de limpieza ya viene incluido., ubicaci\u00f3n: World Trade Center, valor de $ 750.0 mensuales"]}, {"tag": "alquilar Bodega La Aurora", "patterns": ["Necesito alquilar una Bodega en La Aurora", "Hay Bodegas en alquiler en La Aurora?", "Estan alquilando Bodegas en La Aurora?", "Que precio tiene el alquiler de una Bodega en La Aurora", "Quiero alquilar una Bodega en La Aurora", "Deseo alquilar una Bodega en La Aurora", "Busco una Bodega para alquilar en La Aurora", "Que precio tienen las Bodegas en La Aurora?"], "responses": ["En La Aurora hay disponible una Bodega con grande, con extractor de aire, y ponemos a disposici\u00f3n un peque\u00f1o montacargas., $ 700.0 mensuales"]}, {"tag": "comprar Casa Isla Trinitaria", "patterns": ["Necesito comprar una Casa en Isla Trinitaria", "Hay Casas en venta en Isla Trinitaria?", "Estan vendiendo Casas en Isla Trinitaria?", "Que precio tiene el venta de una Casa en Isla Trinitaria", "Quiero comprar una Casa en Isla Trinitaria", "Deseo comprar una Casa en Isla Trinitaria", "Busco una Casa para comprar en Isla Trinitaria", "Que precio tienen las Casas en Isla Trinitaria?"], "responses": ["Se vende Casa peque\u00f1a, 4 habitaciones y un ba\u00f1o, el piso tiene ciertos desperfectos., ubicaci\u00f3n: Isla Trinitaria, valor de $ 25000.0 "]}, {"tag": "alquilar Bodega Orquideas ", "patterns": ["Necesito alquilar una Bodega en Orquideas ", "Hay Bodegas en alquiler en Orquideas ?", "Estan alquilando Bodegas en Orquideas ?", "Que precio tiene el alquiler de una Bodega en Orquideas ", "Quiero alquilar una Bodega en Orquideas ", "Deseo alquilar una Bodega en Orquideas ", "Busco una Bodega para alquilar en Orquideas ", "Que precio tienen las Bodegas en Orquideas ?"], "responses": ["Hay una Bodega que se alquila, ubicaci\u00f3n: Orquideas , el precio es $ 600.0 mensuales"]}, {"tag": "alquilar Casa La Joya,etapa Perla", "patterns": ["Necesito alquilar una Casa en La Joya,etapa Perla", "Hay Casas en alquiler en La Joya,etapa Perla?", "Estan alquilando Casas en La Joya,etapa Perla?", "Que precio tiene el alquiler de una Casa en La Joya,etapa Perla", "Quiero alquilar una Casa en La Joya,etapa Perla", "Deseo alquilar una Casa en La Joya,etapa Perla", "Busco una Casa para alquilar en La Joya,etapa Perla", "Que precio tienen las Casas en La Joya,etapa Perla?"], "responses": ["Se alquila Casa 2 pisos, tiene 2 ba\u00f1os y 3 habitaciones, el suelo tiene m\u00e1rmol., ubicaci\u00f3n: La Joya,etapa Perla, valor de $ 65000.0 mensuales"]}, {"tag": "alquilar Casa La florida", "patterns": ["Necesito alquilar una Casa en La florida", "Hay Casas en alquiler en La florida?", "Estan alquilando Casas en La florida?", "Que precio tiene el alquiler de una Casa en La florida", "Quiero alquilar una Casa en La florida", "Deseo alquilar una Casa en La florida", "Busco una Casa para alquilar en La florida", "Que precio tienen las Casas en La florida?"], "responses": ["En La florida hay disponible una Casa con tiene dos habitaciones, un ba\u00f1o y acceso a internet. , $ 400.0 mensuales"]}, {"tag": "alquilar Bodega La Bah\u00eda", "patterns": ["Necesito alquilar una Bodega en La Bah\u00eda", "Hay Bodegas en alquiler en La Bah\u00eda?", "Estan alquilando Bodegas en La Bah\u00eda?", "Que precio tiene el alquiler de una Bodega en La Bah\u00eda", "Quiero alquilar una Bodega en La Bah\u00eda", "Deseo alquilar una Bodega en La Bah\u00eda", "Busco una Bodega para alquilar en La Bah\u00eda", "Que precio tienen las Bodegas en La Bah\u00eda?"], "responses": ["En La Bah\u00eda hay disponible una Bodega con local est\u00e1ndar, muy cerca del malec\u00f3n, el servicio de energ\u00eda el\u00e9ctrica debe pagarse a parte., $ 450.0 mensuales"]}, {"tag": "comprar Casa Villa Club, etapa Jupiter", "patterns": ["Necesito comprar una Casa en Villa Club, etapa Jupiter", "Hay Casas en venta en Villa Club, etapa Jupiter?", "Estan vendiendo Casas en Villa Club, etapa Jupiter?", "Que precio tiene el venta de una Casa en Villa Club, etapa Jupiter", "Quiero comprar una Casa en Villa Club, etapa Jupiter", "Deseo comprar una Casa en Villa Club, etapa Jupiter", "Busco una Casa para comprar en Villa Club, etapa Jupiter", "Que precio tienen las Casas en Villa Club, etapa Jupiter?"], "responses": ["Hay una Casa que se vende, ubicaci\u00f3n: Villa Club, etapa Jupiter, el precio es $ 55000.0 "]}, {"tag": "alquilar Casa Acacias", "patterns": ["Necesito alquilar una Casa en Acacias", "Hay Casas en alquiler en Acacias?", "Estan alquilando Casas en Acacias?", "Que precio tiene el alquiler de una Casa en Acacias", "Quiero alquilar una Casa en Acacias", "Deseo alquilar una Casa en Acacias", "Busco una Casa para alquilar en Acacias", "Que precio tienen las Casas en Acacias?"], "responses": ["En Acacias hay disponible una Casa con un piso, 2 ba\u00f1os y 2 habitaciones, no incluye el pago de servicios b\u00e1sicos., $ 450.0 mensuales"]}, {"tag": "alquilar Departamento en el Sur, cerca del estadio Capwell", "patterns": ["Necesito alquilar un Departamento en en el Sur, cerca del estadio Capwell", "Hay Departamentos en alquiler en en el Sur, cerca del estadio Capwell?", "Estan alquilando Departamentos en en el Sur, cerca del estadio Capwell?", "Que precio tiene el alquiler de un Departamento en en el Sur, cerca del estadio Capwell", "Quiero alquilar un Departamento en en el Sur, cerca del estadio Capwell", "Deseo alquilar un Departamento en en el Sur, cerca del estadio Capwell", "Busco un Departamento para alquilar en en el Sur, cerca del estadio Capwell", "Que precio tienen los Departamentos en en el Sur, cerca del estadio Capwell?"], "responses": ["En en el Sur, cerca del estadio Capwell hay disponible un Departamento con incluye servicio de internet, tiene 2 habitaciones, un ba\u00f1o y un peque\u00f1o garaje que puede ser ocupado., $ 600.0 mensuales"]}, {"tag": "alquilar Casa Prosperina cerca de Espol", "patterns": ["Necesito alquilar una Casa en Prosperina cerca de Espol", "Hay Casas en alquiler en Prosperina cerca de Espol?", "Estan alquilando Casas en Prosperina cerca de Espol?", "Que precio tiene el alquiler de una Casa en Prosperina cerca de Espol", "Quiero alquilar una Casa en Prosperina cerca de Espol", "Deseo alquilar una Casa en Prosperina cerca de Espol", "Busco una Casa para alquilar en Prosperina cerca de Espol", "Que precio tienen las Casas en Prosperina cerca de Espol?"], "responses": ["Casa en alquiler, ubicaci\u00f3n:Prosperina cerca de Espol por $ 400.0 mensuales, un solo ba\u00f1o 4 habitaciones, ideal para estudiantes universitarios."]}, {"tag": "alquilar Departamento Ceibos cerca de ESPOL", "patterns": ["Necesito alquilar un Departamento en Ceibos cerca de ESPOL", "Hay Departamentos en alquiler en Ceibos cerca de ESPOL?", "Estan alquilando Departamentos en Ceibos cerca de ESPOL?", "Que precio tiene el alquiler de un Departamento en Ceibos cerca de ESPOL", "Quiero alquilar un Departamento en Ceibos cerca de ESPOL", "Deseo alquilar un Departamento en Ceibos cerca de ESPOL", "Busco un Departamento para alquilar en Ceibos cerca de ESPOL", "Que precio tienen los Departamentos en Ceibos cerca de ESPOL?"], "responses": ["En Ceibos cerca de ESPOL hay disponible un Departamento con dos ba\u00f1os, 4 habitaciones y un garaje grande, ideal para estudiantes de la ESPOL, $ 600.0 mensuales"]}, {"tag": "alquilar Suite Ceibos", "patterns": ["Necesito alquilar una Suite en Ceibos", "Hay Suites en alquiler en Ceibos?", "Estan alquilando Suites en Ceibos?", "Que precio tiene el alquiler de una Suite en Ceibos", "Quiero alquilar una Suite en Ceibos", "Deseo alquilar una Suite en Ceibos", "Busco una Suite para alquilar en Ceibos", "Que precio tienen las Suites en Ceibos?"], "responses": ["En Ceibos hay disponible una Suite con 2 dormitorios amplios y un ba\u00f1o con tina, ideal para relajarse., $ 750.0 mensuales"]}, {"tag": "alquilar Casa La Pradera 2", "patterns": ["Necesito alquilar una Casa en La Pradera 2", "Hay Casas en alquiler en La Pradera 2?", "Estan alquilando Casas en La Pradera 2?", "Que precio tiene el alquiler de una Casa en La Pradera 2", "Quiero alquilar una Casa en La Pradera 2", "Deseo alquilar una Casa en La Pradera 2", "Busco una Casa para alquilar en La Pradera 2", "Que precio tienen las Casas en La Pradera 2?"], "responses": ["Se alquila Casa 2 habitaciones y 2 ba\u00f1os que incluyen ducha de agua caliente. , ubicaci\u00f3n: La Pradera 2, valor de $ 600.0 mensuales"]}, {"tag": "alquilar Casa La Pradera", "patterns": ["Necesito alquilar una Casa en La Pradera", "Hay Casas en alquiler en La Pradera?", "Estan alquilando Casas en La Pradera?", "Que precio tiene el alquiler de una Casa en La Pradera", "Quiero alquilar una Casa en La Pradera", "Deseo alquilar una Casa en La Pradera", "Busco una Casa para alquilar en La Pradera", "Que precio tienen las Casas en La Pradera?"], "responses": ["Hay una Casa que se alquila, ubicaci\u00f3n: La Pradera, el precio es $ 400.0 mensuales"]}, {"tag": "comprar Casa Martha de Roldos", "patterns": ["Necesito comprar una Casa en Martha de Roldos", "Hay Casas en venta en Martha de Roldos?", "Estan vendiendo Casas en Martha de Roldos?", "Que precio tiene el venta de una Casa en Martha de Roldos", "Quiero comprar una Casa en Martha de Roldos", "Deseo comprar una Casa en Martha de Roldos", "Busco una Casa para comprar en Martha de Roldos", "Que precio tienen las Casas en Martha de Roldos?"], "responses": ["Se vende Casa 2 pisos, 3 dormitorios y un solo ba\u00f1o, el segundo piso es de madera., ubicaci\u00f3n: Martha de Roldos, valor de $ 27000.0 ", "Se vende Casa 2 ba\u00f1os, 4 habitaciones, un solo piso, la casa est\u00e1 en una zona bien elevada., ubicaci\u00f3n: Martha de Roldos, valor de $ 27000.0 "]}, {"tag": "comprar Casa Sur cerca del estadio de Barcelona", "patterns": ["Necesito comprar una Casa en Sur cerca del estadio de Barcelona", "Hay Casas en venta en Sur cerca del estadio de Barcelona?", "Estan vendiendo Casas en Sur cerca del estadio de Barcelona?", "Que precio tiene el venta de una Casa en Sur cerca del estadio de Barcelona", "Quiero comprar una Casa en Sur cerca del estadio de Barcelona", "Deseo comprar una Casa en Sur cerca del estadio de Barcelona", "Busco una Casa para comprar en Sur cerca del estadio de Barcelona", "Que precio tienen las Casas en Sur cerca del estadio de Barcelona?"], "responses": ["Casa en venta, ubicaci\u00f3n:Sur cerca del estadio de Barcelona por $ 40000.0 , dos pisos, 2 ba\u00f1os y 4 dormitorios, tiene un peque\u00f1o balc\u00f3n."]}, {"tag": "alquilar Departamento Sauces", "patterns": ["Necesito alquilar un Departamento en Sauces", "Hay Departamentos en alquiler en Sauces?", "Estan alquilando Departamentos en Sauces?", "Que precio tiene el alquiler de un Departamento en Sauces", "Quiero alquilar un Departamento en Sauces", "Deseo alquilar un Departamento en Sauces", "Busco un Departamento para alquilar en Sauces", "Que precio tienen los Departamentos en Sauces?"], "responses": ["En Sauces hay disponible un Departamento con 2 ba\u00f1os y 3 dormitorios, todo el piso tiene baldosa excepto un ba\u00f1o., $ 450.0 mensuales"]}, {"tag": "alquilar Departamento Sauces 3", "patterns": ["Necesito alquilar un Departamento en Sauces 3", "Hay Departamentos en alquiler en Sauces 3?", "Estan alquilando Departamentos en Sauces 3?", "Que precio tiene el alquiler de un Departamento en Sauces 3", "Quiero alquilar un Departamento en Sauces 3", "Deseo alquilar un Departamento en Sauces 3", "Busco un Departamento para alquilar en Sauces 3", "Que precio tienen los Departamentos en Sauces 3?"], "responses": ["Hay un Departamento que se alquila, ubicaci\u00f3n: Sauces 3, el precio es $ 600.0 mensuales"]}, {"tag": "alquilar Casa Guayacanes", "patterns": ["Necesito alquilar una Casa en Guayacanes", "Hay Casas en alquiler en Guayacanes?", "Estan alquilando Casas en Guayacanes?", "Que precio tiene el alquiler de una Casa en Guayacanes", "Quiero alquilar una Casa en Guayacanes", "Deseo alquilar una Casa en Guayacanes", "Busco una Casa para alquilar en Guayacanes", "Que precio tienen las Casas en Guayacanes?"], "responses": ["Se alquila Casa 2 dormitorios cada uno con su respectivo ba\u00f1o y una sala peque\u00f1a., ubicaci\u00f3n: Guayacanes, valor de $ 550.0 mensuales"]}, {"tag": "comprar Casa Samanes", "patterns": ["Necesito comprar una Casa en Samanes", "Hay Casas en venta en Samanes?", "Estan vendiendo Casas en Samanes?", "Que precio tiene el venta de una Casa en Samanes", "Quiero comprar una Casa en Samanes", "Deseo comprar una Casa en Samanes", "Busco una Casa para comprar en Samanes", "Que precio tienen las Casas en Samanes?"], "responses": ["Hay una Casa que se vende, ubicaci\u00f3n: Samanes, el precio es $ 20000.0 "]}, {"tag": "alquilar Departamento Sauces 2", "patterns": ["Necesito alquilar un Departamento en Sauces 2", "Hay Departamentos en alquiler en Sauces 2?", "Estan alquilando Departamentos en Sauces 2?", "Que precio tiene el alquiler de un Departamento en Sauces 2", "Quiero alquilar un Departamento en Sauces 2", "Deseo alquilar un Departamento en Sauces 2", "Busco un Departamento para alquilar en Sauces 2", "Que precio tienen los Departamentos en Sauces 2?"], "responses": ["Se alquila Departamento 2 ba\u00f1os , 3 dormitorios y una sala mediana, ubicaci\u00f3n: Sauces 2, valor de $ 450.0 mensuales"]}, {"tag": "alquilar Suite Urbanizacion Terrasol", "patterns": ["Necesito alquilar una Suite en Urbanizacion Terrasol", "Hay Suites en alquiler en Urbanizacion Terrasol?", "Estan alquilando Suites en Urbanizacion Terrasol?", "Que precio tiene el alquiler de una Suite en Urbanizacion Terrasol", "Quiero alquilar una Suite en Urbanizacion Terrasol", "Deseo alquilar una Suite en Urbanizacion Terrasol", "Busco una Suite para alquilar en Urbanizacion Terrasol", "Que precio tienen las Suites en Urbanizacion Terrasol?"], "responses": ["Hay una Suite que se alquila, ubicaci\u00f3n: Urbanizacion Terrasol, el precio es $ 950.0 mensuales"]}, {"tag": "comprar Casa Aquamarina", "patterns": ["Necesito comprar una Casa en Aquamarina", "Hay Casas en venta en Aquamarina?", "Estan vendiendo Casas en Aquamarina?", "Que precio tiene el venta de una Casa en Aquamarina", "Quiero comprar una Casa en Aquamarina", "Deseo comprar una Casa en Aquamarina", "Busco una Casa para comprar en Aquamarina", "Que precio tienen las Casas en Aquamarina?"], "responses": ["Se vende Casa 2 habitaciones, 2 ba\u00f1os y una fachada hermosa, el pago de al\u00edcuotas es de $60 mensual., ubicaci\u00f3n: Aquamarina, valor de $ 75000.0 "]}, {"tag": "alquilar Casa Mapasingue Oeste", "patterns": ["Necesito alquilar una Casa en Mapasingue Oeste", "Hay Casas en alquiler en Mapasingue Oeste?", "Estan alquilando Casas en Mapasingue Oeste?", "Que precio tiene el alquiler de una Casa en Mapasingue Oeste", "Quiero alquilar una Casa en Mapasingue Oeste", "Deseo alquilar una Casa en Mapasingue Oeste", "Busco una Casa para alquilar en Mapasingue Oeste", "Que precio tienen las Casas en Mapasingue Oeste?"], "responses": ["Hay una Casa que se alquila, ubicaci\u00f3n: Mapasingue Oeste, el precio es $ 350.0 mensuales"]}, {"tag": "alquilar Departamento Martha de Roldos", "patterns": ["Necesito alquilar un Departamento en Martha de Roldos", "Hay Departamentos en alquiler en Martha de Roldos?", "Estan alquilando Departamentos en Martha de Roldos?", "Que precio tiene el alquiler de un Departamento en Martha de Roldos", "Quiero alquilar un Departamento en Martha de Roldos", "Deseo alquilar un Departamento en Martha de Roldos", "Busco un Departamento para alquilar en Martha de Roldos", "Que precio tienen los Departamentos en Martha de Roldos?"], "responses": ["En Martha de Roldos hay disponible un Departamento con un piso, 3 dormitorios peque\u00f1os y un ba\u00f1o mediano, $ 500.0 mensuales"]}, {"tag": "alquilar Bodega Florida", "patterns": ["Necesito alquilar una Bodega en Florida", "Hay Bodegas en alquiler en Florida?", "Estan alquilando Bodegas en Florida?", "Que precio tiene el alquiler de una Bodega en Florida", "Quiero alquilar una Bodega en Florida", "Deseo alquilar una Bodega en Florida", "Busco una Bodega para alquilar en Florida", "Que precio tienen las Bodegas en Florida?"], "responses": ["En Florida hay disponible una Bodega con extractor de aire y dos puertas, no incluye servicios b\u00e1sicos, $ 400.0 mensuales"]}, {"tag": "alquilar Casa Urbanizaci\u00f3n La Joya, etapa Quarzo", "patterns": ["Necesito alquilar una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo", "Hay Casas en alquiler en Urbanizaci\u00f3n La Joya, etapa Quarzo?", "Estan alquilando Casas en Urbanizaci\u00f3n La Joya, etapa Quarzo?", "Que precio tiene el alquiler de una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo", "Quiero alquilar una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo", "Deseo alquilar una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo", "Busco una Casa para alquilar en Urbanizaci\u00f3n La Joya, etapa Quarzo", "Que precio tienen las Casas en Urbanizaci\u00f3n La Joya, etapa Quarzo?"], "responses": ["En Urbanizaci\u00f3n La Joya, etapa Quarzo hay disponible una Casa con 2 pisos, 3 dormitorios y 2 ba\u00f1os, el valor de las al\u00edcuotas se paga a parte., $ 650.0 mensuales"]}, {"tag": "comprar Casa Central Park", "patterns": ["Necesito comprar una Casa en Central Park", "Hay Casas en venta en Central Park?", "Estan vendiendo Casas en Central Park?", "Que precio tiene el venta de una Casa en Central Park", "Quiero comprar una Casa en Central Park", "Deseo comprar una Casa en Central Park", "Busco una Casa para comprar en Central Park", "Que precio tienen las Casas en Central Park?"], "responses": ["Casa en venta, ubicaci\u00f3n:Central Park por $ 85000.0 , 2 pisos, 2 dormitorios grandes y un ba\u00f1o en cada piso, adem\u00e1s tiene un balc\u00f3n."]}, {"tag": "comprar Casa Samborondon, urbanizacion Central Park", "patterns": ["Necesito comprar una Casa en Samborondon, urbanizacion Central Park", "Hay Casas en venta en Samborondon, urbanizacion Central Park?", "Estan vendiendo Casas en Samborondon, urbanizacion Central Park?", "Que precio tiene el venta de una Casa en Samborondon, urbanizacion Central Park", "Quiero comprar una Casa en Samborondon, urbanizacion Central Park", "Deseo comprar una Casa en Samborondon, urbanizacion Central Park", "Busco una Casa para comprar en Samborondon, urbanizacion Central Park", "Que precio tienen las Casas en Samborondon, urbanizacion Central Park?"], "responses": ["Hay una Casa que se vende, ubicaci\u00f3n: Samborondon, urbanizacion Central Park, el precio es $ 120000.0 "]}, {"tag": "comprar Casa Samborondon, Urbanizaci\u00f3n Matices", "patterns": ["Necesito comprar una Casa en Samborondon, Urbanizaci\u00f3n Matices", "Hay Casas en venta en Samborondon, Urbanizaci\u00f3n Matices?", "Estan vendiendo Casas en Samborondon, Urbanizaci\u00f3n Matices?", "Que precio tiene el venta de una Casa en Samborondon, Urbanizaci\u00f3n Matices", "Quiero comprar una Casa en Samborondon, Urbanizaci\u00f3n Matices", "Deseo comprar una Casa en Samborondon, Urbanizaci\u00f3n Matices", "Busco una Casa para comprar en Samborondon, Urbanizaci\u00f3n Matices", "Que precio tienen las Casas en Samborondon, Urbanizaci\u00f3n Matices?"], "responses": ["Se vende Casa 2 pisos, 4 habitaciones en total, un patio con c\u00e9sped y una piscina mediana., ubicaci\u00f3n: Samborondon, Urbanizaci\u00f3n Matices, valor de $ 150000.0 "]}, {"tag": "comprar Casa Urbanizaci\u00f3n Acuarelas del R\u00edo", "patterns": ["Necesito comprar una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo", "Hay Casas en venta en Urbanizaci\u00f3n Acuarelas del R\u00edo?", "Estan vendiendo Casas en Urbanizaci\u00f3n Acuarelas del R\u00edo?", "Que precio tiene el venta de una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo", "Quiero comprar una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo", "Deseo comprar una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo", "Busco una Casa para comprar en Urbanizaci\u00f3n Acuarelas del R\u00edo", "Que precio tienen las Casas en Urbanizaci\u00f3n Acuarelas del R\u00edo?"], "responses": ["Hay una Casa que se vende, ubicaci\u00f3n: Urbanizaci\u00f3n Acuarelas del R\u00edo, el precio es $ 50000.0 "]}, {"tag": "alquilar Casa Mucho Lote 2", "patterns": ["Necesito alquilar una Casa en Mucho Lote 2", "Hay Casas en alquiler en Mucho Lote 2?", "Estan alquilando Casas en Mucho Lote 2?", "Que precio tiene el alquiler de una Casa en Mucho Lote 2", "Quiero alquilar una Casa en Mucho Lote 2", "Deseo alquilar una Casa en Mucho Lote 2", "Busco una Casa para alquilar en Mucho Lote 2", "Que precio tienen las Casas en Mucho Lote 2?"], "responses": ["Hay una Casa que se alquila, ubicaci\u00f3n: Mucho Lote 2, el precio es $ 400.0 mensuales", "Hay una Casa que se alquila, ubicaci\u00f3n: Mucho Lote 2, el precio es $ 600.0 mensuales"]}, {"tag": "alquilar Casa Ceibos", "patterns": ["Necesito alquilar una Casa en Ceibos", "Hay Casas en alquiler en Ceibos?", "Estan alquilando Casas en Ceibos?", "Que precio tiene el alquiler de una Casa en Ceibos", "Quiero alquilar una Casa en Ceibos", "Deseo alquilar una Casa en Ceibos", "Busco una Casa para alquilar en Ceibos", "Que precio tienen las Casas en Ceibos?"], "responses": ["Se alquila Casa un piso todo con baldosa, 4 habitaciones y 2 ba\u00f1os, ideal para estudiantes de ESPOL., ubicaci\u00f3n: Ceibos, valor de $ 670.0 mensuales"]}, {"tag": "alquilar Casa Urdesa", "patterns": ["Necesito alquilar una Casa en Urdesa", "Hay Casas en alquiler en Urdesa?", "Estan alquilando Casas en Urdesa?", "Que precio tiene el alquiler de una Casa en Urdesa", "Quiero alquilar una Casa en Urdesa", "Deseo alquilar una Casa en Urdesa", "Busco una Casa para alquilar en Urdesa", "Que precio tienen las Casas en Urdesa?"], "responses": ["Casa en alquiler, ubicaci\u00f3n:Urdesa por $ 700.0 mensuales, 2 dormitorios, 2 ba\u00f1os y una peque\u00f1a piscina"]}, {"tag": "comprar Casa Urdesa Central", "patterns": ["Necesito comprar una Casa en Urdesa Central", "Hay Casas en venta en Urdesa Central?", "Estan vendiendo Casas en Urdesa Central?", "Que precio tiene el venta de una Casa en Urdesa Central", "Quiero comprar una Casa en Urdesa Central", "Deseo comprar una Casa en Urdesa Central", "Busco una Casa para comprar en Urdesa Central", "Que precio tienen las Casas en Urdesa Central?"], "responses": ["Hay una Casa que se vende, ubicaci\u00f3n: Urdesa Central, el precio es $ 60000.0 "]}, {"tag": "alquilar Casa Samanes", "patterns": ["Necesito alquilar una Casa en Samanes", "Hay Casas en alquiler en Samanes?", "Estan alquilando Casas en Samanes?", "Que precio tiene el alquiler de una Casa en Samanes", "Quiero alquilar una Casa en Samanes", "Deseo alquilar una Casa en Samanes", "Busco una Casa para alquilar en Samanes", "Que precio tienen las Casas en Samanes?"], "responses": ["Se alquila Casa patio grande, 2 habitaciones con ba\u00f1o y una sala mediana, ubicaci\u00f3n: Samanes, valor de $ 500.0 mensuales"]}, {"tag": "alquilar Casa Samborondon", "patterns": ["Necesito alquilar una Casa en Samborondon", "Hay Casas en alquiler en Samborondon?", "Estan alquilando Casas en Samborondon?", "Que precio tiene el alquiler de una Casa en Samborondon", "Quiero alquilar una Casa en Samborondon", "Deseo alquilar una Casa en Samborondon", "Busco una Casa para alquilar en Samborondon", "Que precio tienen las Casas en Samborondon?"], "responses": ["Se alquila Casa 3 habitaciones , un garaje y 2 ba\u00f1os, la casa es antigua pero luce muy bien, ubicaci\u00f3n: Samborondon, valor de $ 700.0 mensuales", "Se alquila Casa 2 dormitorios, 2 ba\u00f1os,una sala de juegos y un gran garaje, ubicaci\u00f3n: Samborondon, valor de $ 850.0 mensuales"]}, {"tag": "alquilar Casa Mapasingue", "patterns": ["Necesito alquilar una Casa en Mapasingue", "Hay Casas en alquiler en Mapasingue?", "Estan alquilando Casas en Mapasingue?", "Que precio tiene el alquiler de una Casa en Mapasingue", "Quiero alquilar una Casa en Mapasingue", "Deseo alquilar una Casa en Mapasingue", "Busco una Casa para alquilar en Mapasingue", "Que precio tienen las Casas en Mapasingue?"], "responses": ["Se alquila Casa 2 pisos, 2 ba\u00f1os y una lavander\u00eda grande, la casa es antigua, y el segundo piso es de madera., ubicaci\u00f3n: Mapasingue, valor de $ 450.0 mensuales"]}]}
+{
+    "intents": [
+        {
+            "tag": "alquilar Departamento Kennedy",
+            "patterns": [
+                "Necesito alquilar un Departamento en Kennedy",
+                "Hay Departamentos en alquiler en Kennedy?",
+                "Estan alquilando Departamentos en Kennedy?",
+                "Que precio tiene el alquiler de un Departamento en Kennedy",
+                "Quiero alquilar un Departamento en Kennedy",
+                "Deseo alquilar un Departamento en Kennedy",
+                "Busco un Departamento para alquilar en Kennedy",
+                "Que precio tienen los Departamentos en Kennedy?"
+            ],
+            "responses": [
+                "Departamento en alquiler, ubicaci\u00f3n:Kennedy por $ 250.0 mensuales, Incluye servicios basicos",
+                "En Kennedy hay disponible un Departamento con tres habitaciones,  incluye servicios basicos, tiene garaje, $ 400.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Kennedy vieja",
+            "patterns": [
+                "Necesito comprar una Casa en Kennedy vieja",
+                "Hay Casas en venta en Kennedy vieja?",
+                "Estan vendiendo Casas en Kennedy vieja?",
+                "Que precio tiene el venta de una Casa en Kennedy vieja",
+                "Quiero comprar una Casa en Kennedy vieja",
+                "Deseo comprar una Casa en Kennedy vieja",
+                "Busco una Casa para comprar en Kennedy vieja",
+                "Que precio tienen las Casas en Kennedy vieja?"
+            ],
+            "responses": [
+                "Se vende Casa Una planta, esquinera, con garaje, ubicaci\u00f3n: Kennedy vieja, valor de $ 40000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Suite Samborondon",
+            "patterns": [
+                "Necesito alquilar una Suite en Samborondon",
+                "Hay Suites en alquiler en Samborondon?",
+                "Estan alquilando Suites en Samborondon?",
+                "Que precio tiene el alquiler de una Suite en Samborondon",
+                "Quiero alquilar una Suite en Samborondon",
+                "Deseo alquilar una Suite en Samborondon",
+                "Busco una Suite para alquilar en Samborondon",
+                "Que precio tienen las Suites en Samborondon?"
+            ],
+            "responses": [
+                "En Samborondon hay disponible una Suite con tiene 2 ba\u00f1os, sala de juegos y una peque\u00f1a piscina., $ 1200.0 mensuales",
+                "Se alquila Suite tiene 3 habitaciones, 2 ba\u00f1os, una cocina de lujo y una mesa de billar., ubicaci\u00f3n: Samborondon, valor de $ 950.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Oficina World Trade Center",
+            "patterns": [
+                "Necesito alquilar una Oficina en World Trade Center",
+                "Hay Oficinas en alquiler en World Trade Center?",
+                "Estan alquilando Oficinas en World Trade Center?",
+                "Que precio tiene el alquiler de una Oficina en World Trade Center",
+                "Quiero alquilar una Oficina en World Trade Center",
+                "Deseo alquilar una Oficina en World Trade Center",
+                "Busco una Oficina para alquilar en World Trade Center",
+                "Que precio tienen las Oficinas en World Trade Center?"
+            ],
+            "responses": [
+                "Oficina en alquiler, ubicaci\u00f3n:World Trade Center por $ 1200.0 mensuales, grande con 8 habitaciones, aire acondicionado, y servicio de limpieza diario.",
+                "Se alquila Oficina aire acondicionado, 5 habitaciones de trabajo y un ba\u00f1o, el servicio de limpieza ya viene incluido., ubicaci\u00f3n: World Trade Center, valor de $ 750.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Bodega La Aurora",
+            "patterns": [
+                "Necesito alquilar una Bodega en La Aurora",
+                "Hay Bodegas en alquiler en La Aurora?",
+                "Estan alquilando Bodegas en La Aurora?",
+                "Que precio tiene el alquiler de una Bodega en La Aurora",
+                "Quiero alquilar una Bodega en La Aurora",
+                "Deseo alquilar una Bodega en La Aurora",
+                "Busco una Bodega para alquilar en La Aurora",
+                "Que precio tienen las Bodegas en La Aurora?"
+            ],
+            "responses": [
+                "En La Aurora hay disponible una Bodega con grande, con extractor de aire, y ponemos a disposici\u00f3n un peque\u00f1o montacargas., $ 700.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Isla Trinitaria",
+            "patterns": [
+                "Necesito comprar una Casa en Isla Trinitaria",
+                "Hay Casas en venta en Isla Trinitaria?",
+                "Estan vendiendo Casas en Isla Trinitaria?",
+                "Que precio tiene el venta de una Casa en Isla Trinitaria",
+                "Quiero comprar una Casa en Isla Trinitaria",
+                "Deseo comprar una Casa en Isla Trinitaria",
+                "Busco una Casa para comprar en Isla Trinitaria",
+                "Que precio tienen las Casas en Isla Trinitaria?"
+            ],
+            "responses": [
+                "Se vende Casa peque\u00f1a, 4 habitaciones y un ba\u00f1o, el piso tiene ciertos desperfectos., ubicaci\u00f3n: Isla Trinitaria, valor de $ 25000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Bodega Orquideas ",
+            "patterns": [
+                "Necesito alquilar una Bodega en Orquideas ",
+                "Hay Bodegas en alquiler en Orquideas ?",
+                "Estan alquilando Bodegas en Orquideas ?",
+                "Que precio tiene el alquiler de una Bodega en Orquideas ",
+                "Quiero alquilar una Bodega en Orquideas ",
+                "Deseo alquilar una Bodega en Orquideas ",
+                "Busco una Bodega para alquilar en Orquideas ",
+                "Que precio tienen las Bodegas en Orquideas ?"
+            ],
+            "responses": [
+                "Hay una Bodega que se alquila, ubicaci\u00f3n: Orquideas , el precio es $ 600.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa La Joya,etapa Perla",
+            "patterns": [
+                "Necesito alquilar una Casa en La Joya,etapa Perla",
+                "Hay Casas en alquiler en La Joya,etapa Perla?",
+                "Estan alquilando Casas en La Joya,etapa Perla?",
+                "Que precio tiene el alquiler de una Casa en La Joya,etapa Perla",
+                "Quiero alquilar una Casa en La Joya,etapa Perla",
+                "Deseo alquilar una Casa en La Joya,etapa Perla",
+                "Busco una Casa para alquilar en La Joya,etapa Perla",
+                "Que precio tienen las Casas en La Joya,etapa Perla?"
+            ],
+            "responses": [
+                "Se alquila Casa 2 pisos, tiene 2 ba\u00f1os y 3 habitaciones, el suelo tiene m\u00e1rmol., ubicaci\u00f3n: La Joya,etapa Perla, valor de $ 65000.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa La florida",
+            "patterns": [
+                "Necesito alquilar una Casa en La florida",
+                "Hay Casas en alquiler en La florida?",
+                "Estan alquilando Casas en La florida?",
+                "Que precio tiene el alquiler de una Casa en La florida",
+                "Quiero alquilar una Casa en La florida",
+                "Deseo alquilar una Casa en La florida",
+                "Busco una Casa para alquilar en La florida",
+                "Que precio tienen las Casas en La florida?"
+            ],
+            "responses": [
+                "En La florida hay disponible una Casa con tiene dos habitaciones, un ba\u00f1o y acceso a internet. , $ 400.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Bodega La Bah\u00eda",
+            "patterns": [
+                "Necesito alquilar una Bodega en La Bah\u00eda",
+                "Hay Bodegas en alquiler en La Bah\u00eda?",
+                "Estan alquilando Bodegas en La Bah\u00eda?",
+                "Que precio tiene el alquiler de una Bodega en La Bah\u00eda",
+                "Quiero alquilar una Bodega en La Bah\u00eda",
+                "Deseo alquilar una Bodega en La Bah\u00eda",
+                "Busco una Bodega para alquilar en La Bah\u00eda",
+                "Que precio tienen las Bodegas en La Bah\u00eda?"
+            ],
+            "responses": [
+                "En La Bah\u00eda hay disponible una Bodega con local est\u00e1ndar, muy cerca del malec\u00f3n, el servicio de energ\u00eda el\u00e9ctrica debe pagarse a parte., $ 450.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Villa Club, etapa Jupiter",
+            "patterns": [
+                "Necesito comprar una Casa en Villa Club, etapa Jupiter",
+                "Hay Casas en venta en Villa Club, etapa Jupiter?",
+                "Estan vendiendo Casas en Villa Club, etapa Jupiter?",
+                "Que precio tiene el venta de una Casa en Villa Club, etapa Jupiter",
+                "Quiero comprar una Casa en Villa Club, etapa Jupiter",
+                "Deseo comprar una Casa en Villa Club, etapa Jupiter",
+                "Busco una Casa para comprar en Villa Club, etapa Jupiter",
+                "Que precio tienen las Casas en Villa Club, etapa Jupiter?"
+            ],
+            "responses": [
+                "Hay una Casa que se vende, ubicaci\u00f3n: Villa Club, etapa Jupiter, el precio es $ 55000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Casa Acacias",
+            "patterns": [
+                "Necesito alquilar una Casa en Acacias",
+                "Hay Casas en alquiler en Acacias?",
+                "Estan alquilando Casas en Acacias?",
+                "Que precio tiene el alquiler de una Casa en Acacias",
+                "Quiero alquilar una Casa en Acacias",
+                "Deseo alquilar una Casa en Acacias",
+                "Busco una Casa para alquilar en Acacias",
+                "Que precio tienen las Casas en Acacias?"
+            ],
+            "responses": [
+                "En Acacias hay disponible una Casa con un piso, 2 ba\u00f1os y 2 habitaciones, no incluye el pago de servicios b\u00e1sicos., $ 450.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Departamento en el Sur, cerca del estadio Capwell",
+            "patterns": [
+                "Necesito alquilar un Departamento en en el Sur, cerca del estadio Capwell",
+                "Hay Departamentos en alquiler en en el Sur, cerca del estadio Capwell?",
+                "Estan alquilando Departamentos en en el Sur, cerca del estadio Capwell?",
+                "Que precio tiene el alquiler de un Departamento en en el Sur, cerca del estadio Capwell",
+                "Quiero alquilar un Departamento en en el Sur, cerca del estadio Capwell",
+                "Deseo alquilar un Departamento en en el Sur, cerca del estadio Capwell",
+                "Busco un Departamento para alquilar en en el Sur, cerca del estadio Capwell",
+                "Que precio tienen los Departamentos en en el Sur, cerca del estadio Capwell?"
+            ],
+            "responses": [
+                "En en el Sur, cerca del estadio Capwell hay disponible un Departamento con incluye servicio de internet, tiene 2 habitaciones, un ba\u00f1o y un peque\u00f1o garaje que puede ser ocupado., $ 600.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Prosperina cerca de Espol",
+            "patterns": [
+                "Necesito alquilar una Casa en Prosperina cerca de Espol",
+                "Hay Casas en alquiler en Prosperina cerca de Espol?",
+                "Estan alquilando Casas en Prosperina cerca de Espol?",
+                "Que precio tiene el alquiler de una Casa en Prosperina cerca de Espol",
+                "Quiero alquilar una Casa en Prosperina cerca de Espol",
+                "Deseo alquilar una Casa en Prosperina cerca de Espol",
+                "Busco una Casa para alquilar en Prosperina cerca de Espol",
+                "Que precio tienen las Casas en Prosperina cerca de Espol?"
+            ],
+            "responses": [
+                "Casa en alquiler, ubicaci\u00f3n:Prosperina cerca de Espol por $ 400.0 mensuales, un solo ba\u00f1o 4 habitaciones, ideal para estudiantes universitarios."
+            ]
+        },
+        {
+            "tag": "alquilar Departamento Ceibos cerca de ESPOL",
+            "patterns": [
+                "Necesito alquilar un Departamento en Ceibos cerca de ESPOL",
+                "Hay Departamentos en alquiler en Ceibos cerca de ESPOL?",
+                "Estan alquilando Departamentos en Ceibos cerca de ESPOL?",
+                "Que precio tiene el alquiler de un Departamento en Ceibos cerca de ESPOL",
+                "Quiero alquilar un Departamento en Ceibos cerca de ESPOL",
+                "Deseo alquilar un Departamento en Ceibos cerca de ESPOL",
+                "Busco un Departamento para alquilar en Ceibos cerca de ESPOL",
+                "Que precio tienen los Departamentos en Ceibos cerca de ESPOL?"
+            ],
+            "responses": [
+                "En Ceibos cerca de ESPOL hay disponible un Departamento con dos ba\u00f1os, 4 habitaciones y un garaje grande, ideal para estudiantes de la ESPOL, $ 600.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Suite Ceibos",
+            "patterns": [
+                "Necesito alquilar una Suite en Ceibos",
+                "Hay Suites en alquiler en Ceibos?",
+                "Estan alquilando Suites en Ceibos?",
+                "Que precio tiene el alquiler de una Suite en Ceibos",
+                "Quiero alquilar una Suite en Ceibos",
+                "Deseo alquilar una Suite en Ceibos",
+                "Busco una Suite para alquilar en Ceibos",
+                "Que precio tienen las Suites en Ceibos?"
+            ],
+            "responses": [
+                "En Ceibos hay disponible una Suite con 2 dormitorios amplios y un ba\u00f1o con tina, ideal para relajarse., $ 750.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa La Pradera 2",
+            "patterns": [
+                "Necesito alquilar una Casa en La Pradera 2",
+                "Hay Casas en alquiler en La Pradera 2?",
+                "Estan alquilando Casas en La Pradera 2?",
+                "Que precio tiene el alquiler de una Casa en La Pradera 2",
+                "Quiero alquilar una Casa en La Pradera 2",
+                "Deseo alquilar una Casa en La Pradera 2",
+                "Busco una Casa para alquilar en La Pradera 2",
+                "Que precio tienen las Casas en La Pradera 2?"
+            ],
+            "responses": [
+                "Se alquila Casa 2 habitaciones y 2 ba\u00f1os que incluyen ducha de agua caliente. , ubicaci\u00f3n: La Pradera 2, valor de $ 600.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa La Pradera",
+            "patterns": [
+                "Necesito alquilar una Casa en La Pradera",
+                "Hay Casas en alquiler en La Pradera?",
+                "Estan alquilando Casas en La Pradera?",
+                "Que precio tiene el alquiler de una Casa en La Pradera",
+                "Quiero alquilar una Casa en La Pradera",
+                "Deseo alquilar una Casa en La Pradera",
+                "Busco una Casa para alquilar en La Pradera",
+                "Que precio tienen las Casas en La Pradera?"
+            ],
+            "responses": [
+                "Hay una Casa que se alquila, ubicaci\u00f3n: La Pradera, el precio es $ 400.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Martha de Roldos",
+            "patterns": [
+                "Necesito comprar una Casa en Martha de Roldos",
+                "Hay Casas en venta en Martha de Roldos?",
+                "Estan vendiendo Casas en Martha de Roldos?",
+                "Que precio tiene el venta de una Casa en Martha de Roldos",
+                "Quiero comprar una Casa en Martha de Roldos",
+                "Deseo comprar una Casa en Martha de Roldos",
+                "Busco una Casa para comprar en Martha de Roldos",
+                "Que precio tienen las Casas en Martha de Roldos?"
+            ],
+            "responses": [
+                "Se vende Casa 2 pisos, 3 dormitorios y un solo ba\u00f1o, el segundo piso es de madera., ubicaci\u00f3n: Martha de Roldos, valor de $ 27000.0 ",
+                "Se vende Casa 2 ba\u00f1os, 4 habitaciones, un solo piso, la casa est\u00e1 en una zona bien elevada., ubicaci\u00f3n: Martha de Roldos, valor de $ 27000.0 "
+            ]
+        },
+        {
+            "tag": "comprar Casa Sur cerca del estadio de Barcelona",
+            "patterns": [
+                "Necesito comprar una Casa en Sur cerca del estadio de Barcelona",
+                "Hay Casas en venta en Sur cerca del estadio de Barcelona?",
+                "Estan vendiendo Casas en Sur cerca del estadio de Barcelona?",
+                "Que precio tiene el venta de una Casa en Sur cerca del estadio de Barcelona",
+                "Quiero comprar una Casa en Sur cerca del estadio de Barcelona",
+                "Deseo comprar una Casa en Sur cerca del estadio de Barcelona",
+                "Busco una Casa para comprar en Sur cerca del estadio de Barcelona",
+                "Que precio tienen las Casas en Sur cerca del estadio de Barcelona?"
+            ],
+            "responses": [
+                "Casa en venta, ubicaci\u00f3n:Sur cerca del estadio de Barcelona por $ 40000.0 , dos pisos, 2 ba\u00f1os y 4 dormitorios, tiene un peque\u00f1o balc\u00f3n."
+            ]
+        },
+        {
+            "tag": "alquilar Departamento Sauces",
+            "patterns": [
+                "Necesito alquilar un Departamento en Sauces",
+                "Hay Departamentos en alquiler en Sauces?",
+                "Estan alquilando Departamentos en Sauces?",
+                "Que precio tiene el alquiler de un Departamento en Sauces",
+                "Quiero alquilar un Departamento en Sauces",
+                "Deseo alquilar un Departamento en Sauces",
+                "Busco un Departamento para alquilar en Sauces",
+                "Que precio tienen los Departamentos en Sauces?"
+            ],
+            "responses": [
+                "En Sauces hay disponible un Departamento con 2 ba\u00f1os y 3 dormitorios, todo el piso tiene baldosa excepto un ba\u00f1o., $ 450.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Departamento Sauces 3",
+            "patterns": [
+                "Necesito alquilar un Departamento en Sauces 3",
+                "Hay Departamentos en alquiler en Sauces 3?",
+                "Estan alquilando Departamentos en Sauces 3?",
+                "Que precio tiene el alquiler de un Departamento en Sauces 3",
+                "Quiero alquilar un Departamento en Sauces 3",
+                "Deseo alquilar un Departamento en Sauces 3",
+                "Busco un Departamento para alquilar en Sauces 3",
+                "Que precio tienen los Departamentos en Sauces 3?"
+            ],
+            "responses": [
+                "Hay un Departamento que se alquila, ubicaci\u00f3n: Sauces 3, el precio es $ 600.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Guayacanes",
+            "patterns": [
+                "Necesito alquilar una Casa en Guayacanes",
+                "Hay Casas en alquiler en Guayacanes?",
+                "Estan alquilando Casas en Guayacanes?",
+                "Que precio tiene el alquiler de una Casa en Guayacanes",
+                "Quiero alquilar una Casa en Guayacanes",
+                "Deseo alquilar una Casa en Guayacanes",
+                "Busco una Casa para alquilar en Guayacanes",
+                "Que precio tienen las Casas en Guayacanes?"
+            ],
+            "responses": [
+                "Se alquila Casa 2 dormitorios cada uno con su respectivo ba\u00f1o y una sala peque\u00f1a., ubicaci\u00f3n: Guayacanes, valor de $ 550.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Samanes",
+            "patterns": [
+                "Necesito comprar una Casa en Samanes",
+                "Hay Casas en venta en Samanes?",
+                "Estan vendiendo Casas en Samanes?",
+                "Que precio tiene el venta de una Casa en Samanes",
+                "Quiero comprar una Casa en Samanes",
+                "Deseo comprar una Casa en Samanes",
+                "Busco una Casa para comprar en Samanes",
+                "Que precio tienen las Casas en Samanes?"
+            ],
+            "responses": [
+                "Hay una Casa que se vende, ubicaci\u00f3n: Samanes, el precio es $ 20000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Departamento Sauces 2",
+            "patterns": [
+                "Necesito alquilar un Departamento en Sauces 2",
+                "Hay Departamentos en alquiler en Sauces 2?",
+                "Estan alquilando Departamentos en Sauces 2?",
+                "Que precio tiene el alquiler de un Departamento en Sauces 2",
+                "Quiero alquilar un Departamento en Sauces 2",
+                "Deseo alquilar un Departamento en Sauces 2",
+                "Busco un Departamento para alquilar en Sauces 2",
+                "Que precio tienen los Departamentos en Sauces 2?"
+            ],
+            "responses": [
+                "Se alquila Departamento 2 ba\u00f1os , 3 dormitorios y una sala mediana, ubicaci\u00f3n: Sauces 2, valor de $ 450.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Suite Urbanizacion Terrasol",
+            "patterns": [
+                "Necesito alquilar una Suite en Urbanizacion Terrasol",
+                "Hay Suites en alquiler en Urbanizacion Terrasol?",
+                "Estan alquilando Suites en Urbanizacion Terrasol?",
+                "Que precio tiene el alquiler de una Suite en Urbanizacion Terrasol",
+                "Quiero alquilar una Suite en Urbanizacion Terrasol",
+                "Deseo alquilar una Suite en Urbanizacion Terrasol",
+                "Busco una Suite para alquilar en Urbanizacion Terrasol",
+                "Que precio tienen las Suites en Urbanizacion Terrasol?"
+            ],
+            "responses": [
+                "Hay una Suite que se alquila, ubicaci\u00f3n: Urbanizacion Terrasol, el precio es $ 950.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Aquamarina",
+            "patterns": [
+                "Necesito comprar una Casa en Aquamarina",
+                "Hay Casas en venta en Aquamarina?",
+                "Estan vendiendo Casas en Aquamarina?",
+                "Que precio tiene el venta de una Casa en Aquamarina",
+                "Quiero comprar una Casa en Aquamarina",
+                "Deseo comprar una Casa en Aquamarina",
+                "Busco una Casa para comprar en Aquamarina",
+                "Que precio tienen las Casas en Aquamarina?"
+            ],
+            "responses": [
+                "Se vende Casa 2 habitaciones, 2 ba\u00f1os y una fachada hermosa, el pago de al\u00edcuotas es de $60 mensual., ubicaci\u00f3n: Aquamarina, valor de $ 75000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Casa Mapasingue Oeste",
+            "patterns": [
+                "Necesito alquilar una Casa en Mapasingue Oeste",
+                "Hay Casas en alquiler en Mapasingue Oeste?",
+                "Estan alquilando Casas en Mapasingue Oeste?",
+                "Que precio tiene el alquiler de una Casa en Mapasingue Oeste",
+                "Quiero alquilar una Casa en Mapasingue Oeste",
+                "Deseo alquilar una Casa en Mapasingue Oeste",
+                "Busco una Casa para alquilar en Mapasingue Oeste",
+                "Que precio tienen las Casas en Mapasingue Oeste?"
+            ],
+            "responses": [
+                "Hay una Casa que se alquila, ubicaci\u00f3n: Mapasingue Oeste, el precio es $ 350.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Departamento Martha de Roldos",
+            "patterns": [
+                "Necesito alquilar un Departamento en Martha de Roldos",
+                "Hay Departamentos en alquiler en Martha de Roldos?",
+                "Estan alquilando Departamentos en Martha de Roldos?",
+                "Que precio tiene el alquiler de un Departamento en Martha de Roldos",
+                "Quiero alquilar un Departamento en Martha de Roldos",
+                "Deseo alquilar un Departamento en Martha de Roldos",
+                "Busco un Departamento para alquilar en Martha de Roldos",
+                "Que precio tienen los Departamentos en Martha de Roldos?"
+            ],
+            "responses": [
+                "En Martha de Roldos hay disponible un Departamento con un piso, 3 dormitorios peque\u00f1os y un ba\u00f1o mediano, $ 500.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Bodega Florida",
+            "patterns": [
+                "Necesito alquilar una Bodega en Florida",
+                "Hay Bodegas en alquiler en Florida?",
+                "Estan alquilando Bodegas en Florida?",
+                "Que precio tiene el alquiler de una Bodega en Florida",
+                "Quiero alquilar una Bodega en Florida",
+                "Deseo alquilar una Bodega en Florida",
+                "Busco una Bodega para alquilar en Florida",
+                "Que precio tienen las Bodegas en Florida?"
+            ],
+            "responses": [
+                "En Florida hay disponible una Bodega con extractor de aire y dos puertas, no incluye servicios b\u00e1sicos, $ 400.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Urbanizaci\u00f3n La Joya, etapa Quarzo",
+            "patterns": [
+                "Necesito alquilar una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo",
+                "Hay Casas en alquiler en Urbanizaci\u00f3n La Joya, etapa Quarzo?",
+                "Estan alquilando Casas en Urbanizaci\u00f3n La Joya, etapa Quarzo?",
+                "Que precio tiene el alquiler de una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo",
+                "Quiero alquilar una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo",
+                "Deseo alquilar una Casa en Urbanizaci\u00f3n La Joya, etapa Quarzo",
+                "Busco una Casa para alquilar en Urbanizaci\u00f3n La Joya, etapa Quarzo",
+                "Que precio tienen las Casas en Urbanizaci\u00f3n La Joya, etapa Quarzo?"
+            ],
+            "responses": [
+                "En Urbanizaci\u00f3n La Joya, etapa Quarzo hay disponible una Casa con 2 pisos, 3 dormitorios y 2 ba\u00f1os, el valor de las al\u00edcuotas se paga a parte., $ 650.0 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar Casa Central Park",
+            "patterns": [
+                "Necesito comprar una Casa en Central Park",
+                "Hay Casas en venta en Central Park?",
+                "Estan vendiendo Casas en Central Park?",
+                "Que precio tiene el venta de una Casa en Central Park",
+                "Quiero comprar una Casa en Central Park",
+                "Deseo comprar una Casa en Central Park",
+                "Busco una Casa para comprar en Central Park",
+                "Que precio tienen las Casas en Central Park?"
+            ],
+            "responses": [
+                "Casa en venta, ubicaci\u00f3n:Central Park por $ 85000.0 , 2 pisos, 2 dormitorios grandes y un ba\u00f1o en cada piso, adem\u00e1s tiene un balc\u00f3n."
+            ]
+        },
+        {
+            "tag": "comprar Casa Samborondon, urbanizacion Central Park",
+            "patterns": [
+                "Necesito comprar una Casa en Samborondon, urbanizacion Central Park",
+                "Hay Casas en venta en Samborondon, urbanizacion Central Park?",
+                "Estan vendiendo Casas en Samborondon, urbanizacion Central Park?",
+                "Que precio tiene el venta de una Casa en Samborondon, urbanizacion Central Park",
+                "Quiero comprar una Casa en Samborondon, urbanizacion Central Park",
+                "Deseo comprar una Casa en Samborondon, urbanizacion Central Park",
+                "Busco una Casa para comprar en Samborondon, urbanizacion Central Park",
+                "Que precio tienen las Casas en Samborondon, urbanizacion Central Park?"
+            ],
+            "responses": [
+                "Hay una Casa que se vende, ubicaci\u00f3n: Samborondon, urbanizacion Central Park, el precio es $ 120000.0 "
+            ]
+        },
+        {
+            "tag": "comprar Casa Samborondon, Urbanizaci\u00f3n Matices",
+            "patterns": [
+                "Necesito comprar una Casa en Samborondon, Urbanizaci\u00f3n Matices",
+                "Hay Casas en venta en Samborondon, Urbanizaci\u00f3n Matices?",
+                "Estan vendiendo Casas en Samborondon, Urbanizaci\u00f3n Matices?",
+                "Que precio tiene el venta de una Casa en Samborondon, Urbanizaci\u00f3n Matices",
+                "Quiero comprar una Casa en Samborondon, Urbanizaci\u00f3n Matices",
+                "Deseo comprar una Casa en Samborondon, Urbanizaci\u00f3n Matices",
+                "Busco una Casa para comprar en Samborondon, Urbanizaci\u00f3n Matices",
+                "Que precio tienen las Casas en Samborondon, Urbanizaci\u00f3n Matices?"
+            ],
+            "responses": [
+                "Se vende Casa 2 pisos, 4 habitaciones en total, un patio con c\u00e9sped y una piscina mediana., ubicaci\u00f3n: Samborondon, Urbanizaci\u00f3n Matices, valor de $ 150000.0 "
+            ]
+        },
+        {
+            "tag": "comprar Casa Urbanizaci\u00f3n Acuarelas del R\u00edo",
+            "patterns": [
+                "Necesito comprar una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo",
+                "Hay Casas en venta en Urbanizaci\u00f3n Acuarelas del R\u00edo?",
+                "Estan vendiendo Casas en Urbanizaci\u00f3n Acuarelas del R\u00edo?",
+                "Que precio tiene el venta de una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo",
+                "Quiero comprar una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo",
+                "Deseo comprar una Casa en Urbanizaci\u00f3n Acuarelas del R\u00edo",
+                "Busco una Casa para comprar en Urbanizaci\u00f3n Acuarelas del R\u00edo",
+                "Que precio tienen las Casas en Urbanizaci\u00f3n Acuarelas del R\u00edo?"
+            ],
+            "responses": [
+                "Hay una Casa que se vende, ubicaci\u00f3n: Urbanizaci\u00f3n Acuarelas del R\u00edo, el precio es $ 50000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Casa Mucho Lote 2",
+            "patterns": [
+                "Necesito alquilar una Casa en Mucho Lote 2",
+                "Hay Casas en alquiler en Mucho Lote 2?",
+                "Estan alquilando Casas en Mucho Lote 2?",
+                "Que precio tiene el alquiler de una Casa en Mucho Lote 2",
+                "Quiero alquilar una Casa en Mucho Lote 2",
+                "Deseo alquilar una Casa en Mucho Lote 2",
+                "Busco una Casa para alquilar en Mucho Lote 2",
+                "Que precio tienen las Casas en Mucho Lote 2?"
+            ],
+            "responses": [
+                "Hay una Casa que se alquila, ubicaci\u00f3n: Mucho Lote 2, el precio es $ 400.0 mensuales",
+                "Hay una Casa que se alquila, ubicaci\u00f3n: Mucho Lote 2, el precio es $ 600.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Ceibos",
+            "patterns": [
+                "Necesito alquilar una Casa en Ceibos",
+                "Hay Casas en alquiler en Ceibos?",
+                "Estan alquilando Casas en Ceibos?",
+                "Que precio tiene el alquiler de una Casa en Ceibos",
+                "Quiero alquilar una Casa en Ceibos",
+                "Deseo alquilar una Casa en Ceibos",
+                "Busco una Casa para alquilar en Ceibos",
+                "Que precio tienen las Casas en Ceibos?"
+            ],
+            "responses": [
+                "Se alquila Casa un piso todo con baldosa, 4 habitaciones y 2 ba\u00f1os, ideal para estudiantes de ESPOL., ubicaci\u00f3n: Ceibos, valor de $ 670.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Urdesa",
+            "patterns": [
+                "Necesito alquilar una Casa en Urdesa",
+                "Hay Casas en alquiler en Urdesa?",
+                "Estan alquilando Casas en Urdesa?",
+                "Que precio tiene el alquiler de una Casa en Urdesa",
+                "Quiero alquilar una Casa en Urdesa",
+                "Deseo alquilar una Casa en Urdesa",
+                "Busco una Casa para alquilar en Urdesa",
+                "Que precio tienen las Casas en Urdesa?"
+            ],
+            "responses": [
+                "Casa en alquiler, ubicaci\u00f3n:Urdesa por $ 700.0 mensuales, 2 dormitorios, 2 ba\u00f1os y una peque\u00f1a piscina"
+            ]
+        },
+        {
+            "tag": "comprar Casa Urdesa Central",
+            "patterns": [
+                "Necesito comprar una Casa en Urdesa Central",
+                "Hay Casas en venta en Urdesa Central?",
+                "Estan vendiendo Casas en Urdesa Central?",
+                "Que precio tiene el venta de una Casa en Urdesa Central",
+                "Quiero comprar una Casa en Urdesa Central",
+                "Deseo comprar una Casa en Urdesa Central",
+                "Busco una Casa para comprar en Urdesa Central",
+                "Que precio tienen las Casas en Urdesa Central?"
+            ],
+            "responses": [
+                "Hay una Casa que se vende, ubicaci\u00f3n: Urdesa Central, el precio es $ 60000.0 "
+            ]
+        },
+        {
+            "tag": "alquilar Casa Samanes",
+            "patterns": [
+                "Necesito alquilar una Casa en Samanes",
+                "Hay Casas en alquiler en Samanes?",
+                "Estan alquilando Casas en Samanes?",
+                "Que precio tiene el alquiler de una Casa en Samanes",
+                "Quiero alquilar una Casa en Samanes",
+                "Deseo alquilar una Casa en Samanes",
+                "Busco una Casa para alquilar en Samanes",
+                "Que precio tienen las Casas en Samanes?"
+            ],
+            "responses": [
+                "Se alquila Casa patio grande, 2 habitaciones con ba\u00f1o y una sala mediana, ubicaci\u00f3n: Samanes, valor de $ 500.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Samborondon",
+            "patterns": [
+                "Necesito alquilar una Casa en Samborondon",
+                "Hay Casas en alquiler en Samborondon?",
+                "Estan alquilando Casas en Samborondon?",
+                "Que precio tiene el alquiler de una Casa en Samborondon",
+                "Quiero alquilar una Casa en Samborondon",
+                "Deseo alquilar una Casa en Samborondon",
+                "Busco una Casa para alquilar en Samborondon",
+                "Que precio tienen las Casas en Samborondon?"
+            ],
+            "responses": [
+                "Se alquila Casa 3 habitaciones , un garaje y 2 ba\u00f1os, la casa es antigua pero luce muy bien, ubicaci\u00f3n: Samborondon, valor de $ 700.0 mensuales",
+                "Se alquila Casa 2 dormitorios, 2 ba\u00f1os,una sala de juegos y un gran garaje, ubicaci\u00f3n: Samborondon, valor de $ 850.0 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar Casa Mapasingue",
+            "patterns": [
+                "Necesito alquilar una Casa en Mapasingue",
+                "Hay Casas en alquiler en Mapasingue?",
+                "Estan alquilando Casas en Mapasingue?",
+                "Que precio tiene el alquiler de una Casa en Mapasingue",
+                "Quiero alquilar una Casa en Mapasingue",
+                "Deseo alquilar una Casa en Mapasingue",
+                "Busco una Casa para alquilar en Mapasingue",
+                "Que precio tienen las Casas en Mapasingue?"
+            ],
+            "responses": [
+                "Se alquila Casa 2 pisos, 2 ba\u00f1os y una lavander\u00eda grande, la casa es antigua, y el segundo piso es de madera., ubicaci\u00f3n: Mapasingue, valor de $ 450.0 mensuales"
+            ]
+        }
+    ]
+}

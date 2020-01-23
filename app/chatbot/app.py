@@ -69,6 +69,7 @@ def chat(msg):
                             response_template = f'<b>Por el momento solo pude encontrar esto:</b> {i["responses"][0]}'
                         print(response_template)
                         return response_template
+                        
                     return random.choice(i["responses"])
 
                 return random.choice(i["responses"])

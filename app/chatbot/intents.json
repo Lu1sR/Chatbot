@@ -116,6 +116,27 @@
                 ""
             ]
         },
+
+        {
+            "tag": "precio",
+            "patterns": [
+                "Que precio tiene la casa?",
+                "Cuanto cuesta la casa?",
+                "Que valor tiene la casa?",
+                "Cuanto cuesta?",
+                "Cuanto se debe pagar?",
+                "Cuanto se debe pagar por la casa?",
+                "Que valor tiene?"
+            ],
+            "responses": [
+                "Nos puedes escribir a info_realstate@gmail.com para obtener mayor informacion de la casa",
+                "Si quieres saber mas escribenos al correo info_realstate@gmail.com para"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
         {
             "tag": "documentos que se deben llevar",
             "patterns": [
@@ -359,7 +380,9 @@
             "tag": "comprar casas en el centro de la ciudad",
             "patterns": [
                 "Deseo comprar una casa en el centro de Guayaquil",
-                "Estan vendiendo casas en el centro?"
+                "Estan vendiendo casas en el centro?",
+                "Hay casas cerca del centro",
+                "Venden casas en el centro de la ciudad"
             ],
             "responses": [
                 "Hay una casa de dos pisos,ubicada a cinco cuadras del Malecón, el precio es $30000",
@@ -370,7 +393,9 @@
             "tag": "alquilar casas en el centro de la ciudad",
             "patterns": [
                 "Deseo alquilar una casa en el centro de Guayaquil",
-                "Estan alquilando casas en el centro?"
+                "Estan alquilando casas en el centro?",
+                "Hay casas que se alquilen cerca del centro",
+                "Alquilan casas en el centro de la ciudad"
             ],
             "responses": [
                 "Hay una casa de dos pisos,ubicada a cinco cuadras del Malecón, el precio de alquiler es de $680",
@@ -381,7 +406,9 @@
             "tag": "comprar casas en el sur de la ciudad",
             "patterns": [
                 "Deseo comprar una casa en el sur de Guayaquil",
-                "Estan vendiendo casas en el sur?"
+                "Estan vendiendo casas en el sur?",
+                "Hay casas en venta en el sur ?",
+                "Venden casas en el sur de la ciudad"
             ],
             "responses": [
                 "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio es $20000",
@@ -392,7 +419,9 @@
             "tag": "alquilar casas en el sur de la ciudad",
             "patterns": [
                 "Deseo alquilar una casa en el sur de Guayaquil",
-                "Estan alquilando casas en el sur?"
+                "Estan alquilando casas en el sur?",
+                "Alquilan casas en el sur de la ciudad",
+                "Hay casas en venta en el sur?"
             ],
             "responses": [
                 "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio de alquiler es $400",
@@ -403,7 +432,8 @@
             "tag": "comprar casas en Samanes",
             "patterns": [
                 "Deseo comprar una casa ubicada en Samanes",
-                "Estan vendiendo casas en Samanes?"
+                "Estan vendiendo casas en Samanes?",
+                "Venden casas en samanes"
             ],
             "responses": [
                 "Esta en venta una casa ubicada en Samanes 7, el precio es $40000",
@@ -415,6 +445,7 @@
             "patterns": [
                 "Deseo comprar una casa ubicada en el norte de la ciudad",
                 "Estan vendiendo casas en el norte?",
+                "Venden casas en el norte?",
                 "En que parte del norte estan vendiendo casas?"
             ],
             "responses": [
@@ -428,7 +459,8 @@
             "patterns": [
                 "Deseo alquilar una casa ubicada en el norte de la ciudad",
                 "Estan alquilando casas en el norte?",
-                "En que parte del norte estan alquilando casas?"
+                "En que parte del norte estan alquilando casas?",
+                "Alquilan casas en el norte?"
             ],
             "responses": [
                 "Se esta alquilando una casa ubicada en Mapasingue Este, el precio es $450 mensuales",
@@ -553,6 +585,20 @@
                 "Se esta vendiendo una casa a ese precio en Urdesa"
             ]
         },
+
+        {
+            "tag": "casas caras",
+            "patterns": [
+                "Cuales son las casas mas caras",
+                "Tienen casas caras",
+                "Estoy buscando una casa cara"
+            ],
+            "responses": [
+                "En La Urbanización en Condado, hay una casa que se vende a $150000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $75000",
+                "Se esta vendiendo una casa cara en Urdesa, el precio es de $12000"
+            ]
+        },
         {
             "tag": "casas de $30000",
             "patterns": [
@@ -663,16 +709,17 @@
             "patterns": [
                 "En que urbanizaciones estan vendiendo casas?",
                 "En cuales urbanizaciones venden casas?",
-                "En que urbanizaciones hay casas en venta?"
+                "En que urbanizaciones hay casas en venta?",
+                "En que urbanizacion estan alquilando casas"
             ],
             "responses": [
-                "Villa Club",
-                "Villa del Rey",
-                "La Joya",
-                "Central Park",
-                "VistaSol",
-                "Aquamarina",
-                "TerraSol"
+                "En Villa Club",
+                "En Villa del Rey",
+                "En La Joya",
+                "En Central Park",
+                "En VistaSol",
+                "En Aquamarina",
+                "En TerraSol"
             ]
         },
         {
@@ -724,9 +771,10 @@
             "patterns": [
                 "que haces?",
                 "de donde eres?",
-                "que año es?",
+                "como te va?",
                 "cual es mi edad?",
-                "como estas?"
+                "como estas?",
+                "que tal?"
             ],
             "responses": [
                 "Deberías preguntarme sobre bienes raíces",
@@ -737,11 +785,17 @@
         {
             "tag": "respuestas usuario",
             "patterns": [
+                "estan muy caras las oficinas",
+                "estan carisimas las casas",
+                "estan carisimos los departamentos",
+                "estan carisimas las oficinas",
                 "estan muy caras",
                 "no hay más baratas?",
                 "me parece muy caro",
                 "los precios precios estan muy elevados",
-                "los precios estan muy altos"
+                "los precios estan muy altos",
+                "estan muy caras las casas",
+                "estan muy caros los departamentos"
             ],
             "responses": [
                 "Lo siento, pero esos precios son establecidos por los dueños, no por nosotros 😕",
