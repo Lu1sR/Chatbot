@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             url: `/create_model`,
             type: 'GET',
             success: () => {
-                modalMsg.text('Chatbot re entrnado exitosamente');
+                modalMsg.text('Chatbot re entrenado exitosamente');
             },
             error: (error) => {
                 console.log(error);

@@ -42,10 +42,10 @@ class Property(db.Model):
         monthly = 'mensuales' if self.contract == 'Alquiler' else ''
         conector = 'un' if self.type == 'Departamento' else 'una'
         str_templates = [
-            f'{self.type} en {verb} en {self.location} por $ {self.price} {monthly}, {self.description}',
-            f'Se {verb1} {self.type} {self.description} en {self.location}, valor de $ {self.price} {monthly}',
+            f'{self.type} en {verb}, ubicación:{self.location} por $ {self.price} {monthly}, {self.description}',
+            f'Se {verb1} {self.type} {self.description}, ubicación: {self.location}, valor de $ {self.price} {monthly}',
             f'En {self.location} hay disponible {conector} {self.type} con {self.description}, $ {self.price} {monthly}',
-            f'Hay {conector} {self.type} que se {verb1} en {self.location}, el precio es $ {self.price} {monthly}',
+            f'Hay {conector} {self.type} que se {verb1}, ubicación: {self.location}, el precio es $ {self.price} {monthly}',
         ]
         # f'{self.type} en {self.contract}, ubicada/o en {self.location}, por $ {self.price}, {self.description}'
         return random.choice(str_templates)
@@ -62,7 +62,7 @@ property_schema = PropertySchema()
 properties_schema = PropertySchema(many=True)
 
 
-@app.route("/")
+@app.route("/chat")
 def home():
     return render_template('chat.html')
 
@@ -105,7 +105,7 @@ def init():
             new_intent = {}
             new_intent['tag'] = pattern
             new_intent['patterns'] = []
-            new_intent['patterns'].append(pattern)
+            #new_intent['patterns'].append(pattern)
 
             contract_verb2 = 'venta' if property.contract == 'Venta' else 'alquiler'
             contract_verb3 = 'vendiendo' if property.contract == 'Venta' else 'alquilando'
@@ -136,10 +136,10 @@ def init():
 
     intents_dict = {}
     intents_dict['intents'] = intents
-
     intents_file = open(f'{basedir}/chatbot/properties_intents.json', 'w')
     intents_file.write(json.dumps(intents_dict))
     intents_file.close()
+    os.remove('model/model.h5')
     init_bot()
     return "El modelo fue creado correctamente"
 
@@ -184,7 +184,6 @@ def property_delete(id):
     db.session.delete(property)
     db.session.commit()
     return property_schema.jsonify(property)
-
 
 if __name__ == "__main__":
     app.run()

@@ -39,8 +39,8 @@ def create_model():
     a, b = procesar()
     train_x = a[0]
     train_y = a[1]
-    print(train_x)
-    print("\n\n\n", train_y)
+    print(len(train_x))
+    print("\n\n\n", len(train_y))
     with graph.as_default():
         model = Sequential()
         model.add(Dense(128, input_shape=(

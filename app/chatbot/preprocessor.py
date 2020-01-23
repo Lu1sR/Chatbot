@@ -14,9 +14,13 @@ properties_tags = []
 
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 json_url = os.path.join(SITE_ROOT, 'intents.json')
-data = json.load(open(json_url))
-property_data = json.load(
-    open(os.path.join(SITE_ROOT, 'properties_intents.json')))
+#open files
+file_data=open(json_url)
+file_property=open(os.path.join(SITE_ROOT, 'properties_intents.json'))
+
+#load json
+data = json.load(file_data)
+property_data = json.load(file_property)
 
 
 for property_intent in property_data['intents']:
@@ -28,10 +32,10 @@ tokenizer = RegexpTokenizer(r'[a-zA-Z0-9]+|[$]?[0-9]+[.]?[0-9]*')
 
 
 def procesar():
-
-    data = json.load(open(json_url))
-    property_data = json.load(
-        open(os.path.join(SITE_ROOT, 'properties_intents.json')))
+    file_data=open(json_url)
+    file_property=open(os.path.join(SITE_ROOT, 'properties_intents.json'))
+    data = json.load(file_data)
+    property_data = json.load(file_property)
 
     properties_tags.clear()
     for property_intent in property_data['intents']:
@@ -47,7 +51,7 @@ def procesar():
             wrds = tokenizer.tokenize(pattern.lower())
             words.extend(wrds)
             documents.append((wrds, intent["tag"]))
-            print(wrds)
+            #print(wrds)
         if intent["tag"] not in labels:
             labels.append(intent["tag"])
 
@@ -55,14 +59,17 @@ def procesar():
              for w in words if w not in list(stop_words)]
     words = sorted(list(set(words)))
 
-    print("vocabulario: ", len(words), words)
+    #print("vocabulario: ", len(words), words)
 
     labels = sorted(labels)
 
-    print("etiquetas:", len(labels), labels)
+    #print("etiquetas:", len(labels), labels)
 
+    file_data.close()
+    file_property.close()
     training = []
     output_empty = [0] * len(labels)
+
 
     for doc in documents:
         bag = []

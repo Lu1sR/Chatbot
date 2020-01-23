@@ -48,17 +48,6 @@ function enviar_mensaje(msgText) {
 }
 
 
-// function modelo(){
-//   $.ajax({
-//     url: '/create_model',
-//     dataType: 'text',
-//     type: 'GET',
-//     success: function (response) {
-//       alert(response)
-//     }
-//   });
-// }
-
 
 function appendMessage(name, img, side, text) {
   const msgHTML = `

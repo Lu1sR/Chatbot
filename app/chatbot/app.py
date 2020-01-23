@@ -19,8 +19,8 @@ labels = b[0]
 words = b[1]
 
 if path.exists("model/model.h5"):
-    print(train_x)
-    print("\n\n\n", train_y)
+    print(len(train_x))
+    print("\n\n\n",len(train_y))
     model = load_model('model/model.h5')
     model._make_predict_function()
     print("modelo cargado")
@@ -66,7 +66,6 @@ def chat(msg):
                             properties_options = f'</li><li>'.join(i["responses"])
                             response_template = f'<b>Esto fue lo que pude encontrar:</b><li> {properties_options}'
                         else:
-                            print('Si entro a la validacion')
                             response_template = f'<b>Por el momento solo pude encontrar esto:</b> {i["responses"][0]}'
                         print(response_template)
                         return response_template

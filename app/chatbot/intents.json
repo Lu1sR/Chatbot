@@ -26,11 +26,11 @@
                 "Chao, gracias por la informacion"
             ],
             "responses": [
-                "Nos vemos luego, gracias por visitarnos",
-                "Ten un buen día",
-                "Adios, fue un gusto ayudarte",
-                "Bye!, vuelve pronto",
-                "Chao, fue un placer ayudarte"
+                "Nos vemos luego, gracias por visitarnos 🙂",
+                "Ten un buen día 🙂",
+                "Adios, fue un gusto ayudarte 🙂",
+                "Bye!, vuelve pronto 🙂",
+                "Chao, fue un placer ayudarte 🙂"
             ],
             "context": [
                 ""
@@ -44,7 +44,7 @@
                 "Me fue muy útil, gracias"
             ],
             "responses": [
-                "Feliz de ayudarte!",
+                "Feliz de ayudarte! 🙂",
                 "De nada",
                 "Igualmente"
             ],
@@ -96,7 +96,7 @@
             "responses": [
                 "Nos puedes llamar al 0939080599",
                 "Estos son nuestros números, convencional: 2453703, celular: 0939080599",
-                "Llamanos al 0939080599, te atenderemos con gusto"
+                "Llamanos al 0939080599, te atenderemos con gusto 🙂"
             ],
             "context": [
                 ""
@@ -155,8 +155,8 @@
                 "Cuantos años tienes?"
             ],
             "responses": [
-                "Todavía soy joven según tus estándares.",
-                "Soy bastante joven, pero un millón de veces más inteligente que tú."
+                "Todavía soy joven,fui creado hace una semana",
+                "Soy bastante joven, y aún tengo mucho por aprender"
             ],
             "context": [
                 ""
@@ -173,10 +173,604 @@
                 "Quiero ver la casa"
             ],
             "responses": [
-                "Claro, puedes reservar una visita enviandonos tus datos por aqui o por nuestro correo. Te responderemos a tu correo confirmando la visita."
+                "Puedes reservar una visita enviándonos tus datos a nuestro correo. Te responderemos a tu correo confirmando la visita."
             ],
             "context": [
                 ""
+            ]
+        },
+        {
+            "tag": "alquilar departamento en la Kennedy",
+            "patterns": [
+                "necesito alquilar un departamento en la Kennedy"
+            ],
+            "responses": [
+                "Departamento en alquiler en la Kennedy por $650 mensuales, se debe pagar 45 extras por alicuotas",
+                "Ahora tenemos en alquiler un departamento en la Kennedy a $900 mensuales, incluye piscina"
+            ]
+        },
+        {
+            "tag": "alquilar Departamentos en Ceibos",
+            "patterns": [
+                "necesito alquilar un departamento en Ceibos"
+            ],
+            "responses": [
+                "Departamento en Alquiler, ubicada en Ceibos, por $800, Incluye servicios basicos, e internet"
+            ]
+        },
+        {
+            "tag": "comprar casa en la Joya",
+            "patterns": [
+                "Hay casas en venta en la Joya?",
+                "Estan vendiendo casas en la Joya?",
+                "Que precio tienen las casas en la Joya?"
+            ],
+            "responses": [
+                "Casa de dos pisos,Etapa Quarzo por $45000, frente al Plaza Tia",
+                "Casa de dos pisos,Etapa Platino por $4000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en la Joya",
+            "patterns": [
+                "Hay casas en alquiler en la Joya?",
+                "Estan alquilando casas en la Joya?",
+                "Que precio tiene el alquiler de una casa en la Joya?"
+            ],
+            "responses": [
+                "Casa de dos pisos,Etapa Quarzo se alquila en $550, frente al Plaza Tia",
+                "Casa de dos pisos,Etapa Platino se alquila en $450"
+            ]
+        },
+        {
+            "tag": "comprar casa en Villa Club",
+            "patterns": [
+                "Hay casas en venta en Villa Club?",
+                "Quiero comprar una casa en Villa club"
+            ],
+            "responses": [
+                "Casa de dos pisos,Etapa Jupiter por $45000",
+                "Casa esquinera de una planta con piscina en la etapa Cosmos, valor de $55000"
+            ]
+        },
+        {
+            "tag": "alquilar casa en Villa Club",
+            "patterns": [
+                "Estan alquilando casas en Villa Club?",
+                "Quiero alquilar una casa en Villa club",
+                "Hay casas en alquiler en Villa Club?"
+            ],
+            "responses": [
+                "Se está alquilando una casa en la Etapa Jupiter por $650",
+                "Se alquila Casa esquinera de una planta con piscina en la etapa Cosmos, valor de $850"
+            ]
+        },
+        {
+            "tag": "alquilar departamento en Central Park",
+            "patterns": [
+                "Quiero alquilar un departamento grande en Central Park",
+                "Alquilan departamentos en Central Park?"
+            ],
+            "responses": [
+                "En Central Park hay disponible un departamento con 4 cuartos, $1500 mensuales",
+                "En Central Park desocupados departamentos grandes desde $1500 mensuales hasta $3000"
+            ]
+        },
+        {
+            "tag": "alquilar oficinas en edificio la Previsora",
+            "patterns": [
+                "Hay oficinas para alquilar en el edificio la Previsora?",
+                "Existen oficinas disponibles para aquiler en la Previsora?"
+            ],
+            "responses": [
+                "En la Previsora hay disponibles 20 oficinas, el alquiler es de $1500 mensuales",
+                "Actualmente hay 20 disponibles, el alquiler es de $1500 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar oficinas en el norte",
+            "patterns": [
+                "Hay oficinas para alquilar en el norte de la ciudad?",
+                "Alquilan oficinas en el norte?"
+            ],
+            "responses": [
+                "Hay disponibles 10 oficinas en Plaza mayor, el alquiler es de $500 mensuales",
+                "Actualmente hay 10 oficinas disponibles en Plaza Mayor, el alquiler es de $500 mensuales"
+            ]
+        },
+        {
+            "tag": "alquilar casas en la Alborada",
+            "patterns": [
+                "Quiero alquilar una casa en la Alborada",
+                "Estan alquilando casas en la Alborada?"
+            ],
+            "responses": [
+                "Tenemos disponible una casa de dos pisos en la Alborada cerca del Mcdonalds, el alquiler es de $700 mensuales",
+                "Actualmente hay una casa muy grande ubicada cerca del Banco de Pichincha, que se alquila en $850 mensuales"
+            ]
+        },
+        {
+            "tag": "comprar casas en la Alborada",
+            "patterns": [
+                "Quiero comprar una casa en la Alborada",
+                "Estan vendiendo casas en la Alborada?"
+            ],
+            "responses": [
+                "Tenemos disponible una casa de dos pisos en la Alborada 5ta etapa,el precio de venta es de $45000",
+                "Actualmente hay una casa muy grande en la Alborada 2da Etapa que se vende, el valor es de $85000, el pago es en dos partes"
+            ]
+        },
+        {
+            "tag": "comprar casas en Mapasingue Oeste",
+            "patterns": [
+                "Deseo comprar una casa en Mapasingue Oeste",
+                "Esta vendiendo casas en Mapasingue Oeste?"
+            ],
+            "responses": [
+                "Tenemos disponible una casa de tres pisos,el precio de venta es de $50000",
+                "Actualmente hay una casa muy grande que se vende, el valor es de $75000"
+            ]
+        },
+        {
+            "tag": "comprar casas en Portete",
+            "patterns": [
+                "Deseo comprar una casa en Portete",
+                "Estan vendiendo casas en Portete?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en la 29 y Portete, el precio es $30000",
+                "Tenemos una casa en la 26 y Portete que se vende en $15000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en Metropolis",
+            "patterns": [
+                "Busco una casa para alquilar en Metropolis",
+                "Estan alquilando casas en Metropolis?"
+            ],
+            "responses": [
+                "Hay una casa que se alquila en Metropolis I, el precio es $450 mensuales",
+                "Tenemos una casa mediana en Metropolis II que se alquila en $500"
+            ]
+        },
+        {
+            "tag": "comprar casas en Metropolis",
+            "patterns": [
+                "Busco una casa que este en venta en Metropolis",
+                "Estan vendiendo casas en Metropolis?"
+            ],
+            "responses": [
+                "Hay una casa que se vende en Metropolis I, el precio es $42500 ",
+                "Tenemos una casa mediana en Metropolis II que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "comprar casas en Villas del Rey",
+            "patterns": [
+                "Deseo comprar una casa en Villas del Rey",
+                "Estan vendiendo casas en Villas del Rey?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en la etapa Rey Arturo, el precio es $30000",
+                "Tenemos una casa en la etapa Diana que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "comprar casas en el centro de la ciudad",
+            "patterns": [
+                "Deseo comprar una casa en el centro de Guayaquil",
+                "Estan vendiendo casas en el centro?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada a cinco cuadras del Malecón, el precio es $30000",
+                "Tenemos una casa muy cerca del parque Seminario que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en el centro de la ciudad",
+            "patterns": [
+                "Deseo alquilar una casa en el centro de Guayaquil",
+                "Estan alquilando casas en el centro?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada a cinco cuadras del Malecón, el precio de alquiler es de $680",
+                "Tenemos una casa muy cerca del parque Seminario que se alquila en $600"
+            ]
+        },
+        {
+            "tag": "comprar casas en el sur de la ciudad",
+            "patterns": [
+                "Deseo comprar una casa en el sur de Guayaquil",
+                "Estan vendiendo casas en el sur?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio es $20000",
+                "Tenemos una casa muy cerca del parque Acuatico del Guasmo que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en el sur de la ciudad",
+            "patterns": [
+                "Deseo alquilar una casa en el sur de Guayaquil",
+                "Estan alquilando casas en el sur?"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio de alquiler es $400",
+                "Tenemos una casa muy cerca del parque Acuatico del Guasmo que se alquila en $350"
+            ]
+        },
+        {
+            "tag": "comprar casas en Samanes",
+            "patterns": [
+                "Deseo comprar una casa ubicada en Samanes",
+                "Estan vendiendo casas en Samanes?"
+            ],
+            "responses": [
+                "Esta en venta una casa ubicada en Samanes 7, el precio es $40000",
+                "Tenemos una casa muy cerca del parque Samanes que se vende en $45000"
+            ]
+        },
+        {
+            "tag": "comprar casas en el norte de Guayaquil",
+            "patterns": [
+                "Deseo comprar una casa ubicada en el norte de la ciudad",
+                "Estan vendiendo casas en el norte?",
+                "En que parte del norte estan vendiendo casas?"
+            ],
+            "responses": [
+                "Esta en venta una casa ubicada en la Alborada 2da Etapa, el precio es $40000",
+                "Tenemos una casa muy cerca del parque Samanes que se vende en $45000",
+                "Tenemos una casa muy cerca del Riocentro Norte que se vende en $55000"
+            ]
+        },
+        {
+            "tag": "alquilar casas en el norte de Guayaquil",
+            "patterns": [
+                "Deseo alquilar una casa ubicada en el norte de la ciudad",
+                "Estan alquilando casas en el norte?",
+                "En que parte del norte estan alquilando casas?"
+            ],
+            "responses": [
+                "Se esta alquilando una casa ubicada en Mapasingue Este, el precio es $450 mensuales",
+                "Tenemos una casa muy cerca del parque Samanes que se alquila en $500",
+                "Tenemos una casa muy cerca del Riocentro Norte que se alquila en $550"
+            ]
+        },
+        {
+            "tag": "alquilar casas en Samanes ",
+            "patterns": [
+                "Deseo alquilar una casa ubicada en Samanes",
+                "Estan alquilando casas en Samanes?"
+            ],
+            "responses": [
+                "Se está alquilando una casa ubicada en Samanes 5, el precio es $600 mensuales",
+                "Tenemos una casa muy cerca del parque Samanes que se alquila en $550"
+            ]
+        },
+        {
+            "tag": "caracteristicas sobre la casa",
+            "patterns": [
+                "Que caracteristicas tiene la casa?",
+                "Quiero saber mas sobre la casa, estoy interesado",
+                "Estoy interesado en la casa, puede darme más detalles"
+            ],
+            "responses": [
+                "Para mayor información puedes comunicarte con Luis: 0939080599",
+                "Si quieres saber más sobre la casa escribenos a: info_realstate@gmail.com para hacerte llegar la información."
+            ]
+        },
+        {
+            "tag": "comprar casas baratas",
+            "patterns": [
+                "Deseo comprar una casa que sea barata",
+                "Estan vendiendo casas baratas?",
+                "Quiero comprar una casa a un buen precio"
+            ],
+            "responses": [
+                "Hay una casa de dos pisos,ubicada en el Guasmo Sur, el precio es $20000",
+                "Tenemos una casa muy cerca del parque Acuatico del Guasmo que se vende en $35000"
+            ]
+        },
+        {
+            "tag": "comprar casas en Samborondon",
+            "patterns": [
+                "Deseo comprar una casa en Samborondon",
+                "Estan vendiendo casas en Samborondon?",
+                "Quiero comprar una casa en Samboorondon",
+                "Hay casas en venta en samborondon?"
+            ],
+            "responses": [
+                "En La Urbanización Matices,ubicada en samborondon, hay casas que se venden desde $150000 hasta $300000",
+                "Tenemos una casa muy cerca de Plaza Lagos que se esta vendiendo en $250000",
+                "Se esta vendiendo una casa en la isla Mocolí por $350000, es muy grande"
+            ]
+        },
+        {
+            "tag": "comprar casas pequeñas",
+            "patterns": [
+                "Deseo comprar una casa pequeñas",
+                "Estan vendiendo casas pequeñas?",
+                "Quiero comprar una casa pequeña"
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay casas pequeñas que se venden desde $25000 hasta $50000",
+                "Tenemos una casa pequeña muy cerca del Riocentro el Dorado que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa pequeña en el Condado,su precio es de $350000 "
+            ]
+        },
+        {
+            "tag": "casas de dos pisos",
+            "patterns": [
+                "Deseo comprar una casa de dos pisos",
+                "Estan vendiendo casas de dos pisos?",
+                "Quiero comprar una casa de dos pisos",
+                "Deseo comprar una casa de 2 pisos",
+                "Estan vendiendo casas de 2 pisos?",
+                "Quiero comprar una casa de 2 pisos"
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay casas de dos pisos que se venden desde $25000 hasta $50000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa con esa caracteristica en la Alborada,su precio es de $350000 "
+            ]
+        },
+        {
+            "tag": "buscar,comprar casas precio moderado",
+            "patterns": [
+                "Deseo comprar una casa a un precio moderado",
+                "Estan vendiendo casas con precios accesibles?",
+                "Estoy buscando una casa a un buen precio"
+            ],
+            "responses": [
+                "En La Urbanización Villa Club, estan vendiendo una casa en $35000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa a buen precio en la Alborada,los propietarios piden $350000 "
+            ]
+        },
+        {
+            "tag": "buscar,comprar casas precio moderado",
+            "patterns": [
+                "Deseo comprar una casa a un precio moderado",
+                "Estan vendiendo casas con precios accesibles?",
+                "Estoy buscando una casa a un buen precio"
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay casas de dos pisos que se venden desde $25000 hasta $50000",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa con esa caracteristica en la Alborada,su precio es de $350000 "
+            ]
+        },
+        {
+            "tag": "casas de $50000",
+            "patterns": [
+                "Quiero comprar una casa de $50000,50000",
+                "Tienen casas de $50000,50000",
+                "Estoy buscando una casa a $50000,50000"
+            ],
+            "responses": [
+                "En La Urbanización Villas del Rey, hay una casa que se vende a $50000, esta ubicada en Rey Arturo",
+                "Tenemos una casa de dos pisos ubicada cerca del City Mall que se esta vendiendo en $50000",
+                "Se esta vendiendo una casa a ese precio en Urdesa"
+            ]
+        },
+        {
+            "tag": "casas de $30000",
+            "patterns": [
+                "Quiero comprar una casa de $30000,30000",
+                "Tienen casas de $30000,30000",
+                "Estoy buscando una casa a $30000,30000"
+            ],
+            "responses": [
+                "En Urdesa, hay una casa que se vende a $30000, esta tiene un pequeño garaje",
+                "Tenemos una casa de dos pisos ubicada cerca del Riocentro Sur que se esta vendiendo en $30000",
+                "Se esta vendiendo una casa a ese precio en la Prosperina"
+            ]
+        },
+        {
+            "tag": "alquilar departamentos cerca Espol",
+            "patterns": [
+                "Quiero alquilar un departamento cerca de Espol",
+                "Estan alquilando departamentos cerca de espol?",
+                "Estoy buscando un departamento que este cerca de la espol"
+            ],
+            "responses": [
+                "En la Prosperina, hay un departamento que se alquila a $200 mesuales, es bastante pequeño",
+                "En la Martha de Roldos se está alquilando una casa en $300 mensuales",
+                "En ceibos alquilan un departamento a $500 mensuales,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamentos cerca universidad católica, U católica",
+            "patterns": [
+                "Quiero alquilar un departamento cerca de la universidad católica",
+                "Estan alquilando departamentos cerca de la U católica?",
+                "Estoy buscando un departamento que este cerca la la universidad  católica"
+            ],
+            "responses": [
+                "En Ceibos, hay un departamento que se alquila a $500 mesuales, tiene un pequeño garaje",
+                "En Urdesa Central se está alquilando un departamento en $300 mensuales",
+                "Se está alquilando un departamento a $450 mensuales en lomas de Urdesa"
+            ]
+        },
+        {
+            "tag": "alquilar departamento en Portete",
+            "patterns": [
+                "Quiero alquilar un departanento en Portete",
+                "Estan alquilando departamentos en Portete?",
+                "Estoy buscando un departamento que se este alquilando en Portete"
+            ],
+            "responses": [
+                "En la 26 y Portete, hay un departamento que se alquila a $200 mesuales, es bastante pequeño",
+                "En la 29 y Portete se está alquilando un departamento en $350 mensuales",
+                "En la 26 y San Martín se alquila un departamento a $500 mensuales,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamentos baratos",
+            "patterns": [
+                "Quiero alquilar un departamento que sea barato",
+                "Estan alquilando departamentos a bajos precios?",
+                "Estoy buscando un departamento que se este alquilando a un precio bajo"
+            ],
+            "responses": [
+                "En la Prosperina, hay un departamento que se alquila a $200 mesuales, es bastante pequeño",
+                "En Urdesa Central se está alquilando un departamento en $300 mensuales",
+                "En la 25 y Portete alquilan un departamento a $300 mensuales,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamento en Urdesa",
+            "patterns": [
+                "Quiero alquilar un departanento en Urdesa",
+                "Estan alquilando departamentos en Urdesa?",
+                "Estoy buscando un departamento que se este alquilando en Urdesa"
+            ],
+            "responses": [
+                "En Lomas de Urdesa, hay un departamento que se alquila a $550 mesuales,tiene 3 habitaciones",
+                "En Urdesa Central se está alquilando un departamento en $500 mensuales",
+                "En Urdesa Norte alquilan un departamento a $600,el departamento tiene un garaje"
+            ]
+        },
+        {
+            "tag": "alquilar departamento grande",
+            "patterns": [
+                "Quiero alquilar un departanento grande",
+                "Estan alquilando departamentos grandes?",
+                "Estoy buscando un departamento que sea bastante grande"
+            ],
+            "responses": [
+                "En Lomas de Urdesa, hay un departamento que se alquila a $550 mesuales,tiene 3 habitaciones",
+                "En Mapasingue Este se está alquilando un departamento en $500 mensuales, tiene 2 baños y 4 habitaciones",
+                "En Urdesa Norte alquilan un departamento a $600,el departamento tiene un garaje, 3 baños y 3 habitaciones"
+            ]
+        },
+        {
+            "tag": "alquilar departamento con piscina",
+            "patterns": [
+                "Quiero alquilar un departanento que tenga piscina",
+                "Estan alquilando departamentos con piscina?",
+                "Estoy buscando un departamento que tenga una piscina",
+                "Quiero alquilar un departamento grande con piscina"
+            ],
+            "responses": [
+                "En Aquamarina, hay un departamento que se alquila a $850 mensuales y tiene una pequeña piscina",
+                "En Vistasol ubicada en Samborondon se está alquilando un departamento en $750 mensuales, tiene la piscina en el patio",
+                "En Terrasol alquilan un departamento a $800,tiene un garaje, 3 baños y 3 habitaciones y una piscina"
+            ]
+        },
+        {
+            "tag": "urbanizaciones con casas en venta",
+            "patterns": [
+                "En que urbanizaciones estan vendiendo casas?",
+                "En cuales urbanizaciones venden casas?",
+                "En que urbanizaciones hay casas en venta?"
+            ],
+            "responses": [
+                "Villa Club",
+                "Villa del Rey",
+                "La Joya",
+                "Central Park",
+                "VistaSol",
+                "Aquamarina",
+                "TerraSol"
+            ]
+        },
+        {
+            "tag": "comprar casa en Orquideas",
+            "patterns": [
+                "Quiero comprar una casa que este ubicada en Orquideas",
+                "Estan vendiendo casas en las Orquideas",
+                "Estoy buscando una casa que este en venta en las Orquideas",
+                "Venden casas en orquideas?"
+            ],
+            "responses": [
+                "Cerca del Gran Akí de Orquideas, hay una casa que se venden en $40000",
+                "En el redondel de las Orquídeas, hay una casa que se vende por $30000",
+                "En Orquideas se está vendiendo una casa por $28000"
+            ]
+        },
+        {
+            "tag": "preguntas pobres",
+            "patterns": [
+                "venden casas",
+                "alquilan casas",
+                "venden departamentos",
+                "alquilan departamentos",
+                "venden bodegas","alquilan bodegas",
+                "quiero casa","alquilan oficinas",
+                "quiero departamento","venden oficinas",
+                "quiero oficina",
+                "quiero bodega",
+                "busco casa",
+                "busco departamento",
+                "busco suite",
+                "busco oficina",
+                "busco bodega",
+                "casa",
+                "departamento",
+                "bodega",
+                "oficina",
+                "suite",
+                "bienes raices"
+            ],
+            "responses": [
+                "Podrías ser un poco más específico?",
+                "No te puedo ayudar con tan poca información ",
+                "Si fueras más específico, te podría ayudar"
+            ]
+        },
+        {
+            "tag": "preguntas fuera de contexto",
+            "patterns": [
+                "que haces?",
+                "de donde eres?",
+                "que año es?",
+                "cual es mi edad?",
+                "como estas?"
+            ],
+            "responses": [
+                "Deberías preguntarme sobre bienes raíces",
+                "Esa pregunta no tiene que ver con bienes raíces",
+                "Mejor preguntame sobre bienes raíces"
+            ]
+        },
+        {
+            "tag": "respuestas usuario",
+            "patterns": [
+                "estan muy caras",
+                "no hay más baratas?",
+                "me parece muy caro",
+                "los precios precios estan muy elevados",
+                "los precios estan muy altos"
+            ],
+            "responses": [
+                "Lo siento, pero esos precios son establecidos por los dueños, no por nosotros 😕",
+                "Los precios no son establecidos por nosotros 😕"
+            ]
+        },
+
+        {
+            "tag": "recomendaciones",
+            "patterns": [
+                "quiero comprar una casa",
+                "quiero comprar un departamento",
+                "quiero alquilar una casa",
+                "quiero alquilar un departamento",
+                "en donde puedo comprar una casa",
+                "en donde me recomienda comprar una casa",
+                "en donde podría alquilar una casa",
+                "en donde podría alquilar un departamento",
+                "en donde podría comprar un departamento",
+                "en que lugar me recomienda comprar una casa",
+                "en que lugar me recomienda alquilar una casa",
+                "en que lugar me recomienda alquilar un departamento"
+            ],
+            "responses": [
+                "Yo te recomiendo que busques en Samborondon, en sus urbanizaciones hay mucha tranquilidad",
+                "Yo te recomiendo que busques en la Alborada, estas cerca de muchos lugares",
+                "Yo te recomiendo que busques en Urdesa, hay casas y departamentos muy bonitos",
+                "Yo te recomiendo que busques en el Sur, hay casas y departamentos a muy buen precio",
+                "Yo te recomiendo que busques en el Centro, estás cerca del malecón y hay casas a buen precio"
             ]
         }
     ]
