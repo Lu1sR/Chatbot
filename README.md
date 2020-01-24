@@ -25,8 +25,12 @@
 
 4.- Resultados
 -----------------------
+* Exactitud del modelo
 ![exactitud](results/accuracy.png)
+* Chat
 ![chat](results/chat.png)
+* Listado de propiedades
 ![list](results/list.png)
+* Formulario para registrar propiedades 
 ![form](results/form.png)
 
