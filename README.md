@@ -1,6 +1,13 @@
 # Chatbot
 
-1 - Instalar 
+1 - Crear entorno virtual
+-------------------------------
+* virtualenv -p python3 nombre_del_entorno
+* cd nombre_del_entorno
+* git clone https://github.com/Lu1sR/Chatbot
+* source bin/activate
+
+2 - Instalar 
 ---------------
 * pip install -r requirements.txt
 
