@@ -12,7 +12,11 @@
 * pip install -r requirements.txt
 
 
-2 - Iniciar
+3 - Iniciar
 ---------------
 * export FLASK_APP=app/main.py 
 * flask run  
+
+4.- Resultados
+-----------------------
+![exactitud](results/accuracy.png)
