@@ -20,3 +20,4 @@
 4.- Resultados
 -----------------------
 ![exactitud](results/accuracy.png)
+![chat](results/chat.png)
