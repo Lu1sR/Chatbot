@@ -15,9 +15,18 @@
 3 - Iniciar
 ---------------
 * export FLASK_APP=app/main.py 
-* flask run  
+* flask run
+
+4 - Acceso
+----------------------
+* Chat: localhost:5000/chat
+* Lista de propiedades: localhost:5000/list
+* Formulario de registro de propiedades: localhost:5000/form
 
 4.- Resultados
 -----------------------
 ![exactitud](results/accuracy.png)
 ![chat](results/chat.png)
+![chat](results/list.png)
+![chat](results/form.png)
+
