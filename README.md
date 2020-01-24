@@ -27,6 +27,6 @@
 -----------------------
 ![exactitud](results/accuracy.png)
 ![chat](results/chat.png)
-![chat](results/list.png)
-![chat](results/form.png)
+![list](results/list.png)
+![form](results/form.png)
 
